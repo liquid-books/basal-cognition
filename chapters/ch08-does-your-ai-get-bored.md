@@ -9,9 +9,9 @@ tags: [habituation, experiment, protocol, alert-fatigue, research-design]
 
 # Does Your AI Get Bored?
 
-<!-- INFOGRAPHIC: opening explainer covering the chapter's core concepts -->
-
-> **Status:** skeleton. Target 6,500 words, 10–12 images. This is the capstone chapter — a complete, runnable research protocol.
+:::{warning} Chapter In Progress
+This chapter has not been written yet. What follows is the working outline — the core claim, the sections planned, and the key sources. It is published so the book's structure is visible, not as finished reading.
+:::
 
 ## Chapter Plan
 

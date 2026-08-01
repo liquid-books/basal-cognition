@@ -116,7 +116,7 @@ No biology background required. No physics background required. If you can pictu
 
 ## Available Chapters
 
-:::{grid} 2
+::::{grid} 2
 
 :::{grid-item-card} Chapter 1: Intelligence Without a Brain
 :link: ./chapters/ch01-intelligence-without-a-brain.md
@@ -140,32 +140,38 @@ The newt that builds the same tube with one giant cell. Multi-scale competency a
 
 :::{grid-item-card} Chapter 5: The Body Knows Its Own Shape
 :link: ./chapters/ch05-the-body-knows-its-own-shape.md
+*In progress — chapter plan only.*
+
 A thermostat whose setting is your anatomy. The setpoint, where it lives, and how to rewrite it.
 :::
 
 :::{grid-item-card} Chapter 6: Glue
 :link: ./chapters/ch06-glue.md
+*In progress — chapter plan only.*
+
 How a pile of cells becomes an *us* — and what happens to an agent team when you cut the channel.
 :::
 
 :::{grid-item-card} Chapter 7: It Doesn't Matter What It's Made Of
 :link: ./chapters/ch07-it-doesnt-matter-what-its-made-of.md
+*In progress — chapter plan only.*
+
 Xenobots, anthrobots, and substrate independence. The most liberating and most unsettling chapter.
 :::
 
 :::{grid-item-card} Chapter 8: Does Your AI Get Bored?
 :link: ./chapters/ch08-does-your-ai-get-bored.md
+*In progress — chapter plan only.*
+
 The habituation experiment nobody has run yet. Full protocol, controls, and analysis plan.
 :::
 
-<!-- GRID_PLACEHOLDER -->
-
-:::
+::::
 
 ---
 
-:::{note}
-This book is in active development. Chapters are being written and will appear here as they are completed.
+:::{note} Reading Status
+**Chapters 1–4 are complete and ready to read.** Chapters 5–8 are outlined and in progress — their pages currently show the chapter plan rather than finished text.
 :::
 
 ---
