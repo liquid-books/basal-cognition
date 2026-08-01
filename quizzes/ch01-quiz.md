@@ -1,169 +1,161 @@
 # Chapter 1 Quiz — Intelligence Without a Brain
 
-*Instructor resource. Not published in the course site.*
+**10 Multiple Choice + 3 Short Answer**
 
 ---
 
-## Multiple Choice (10 Questions)
+## Multiple Choice
 
-**1.** Which scientist defined intelligence as "the pursuance of future ends and the choice of means for their attainment"?
+**1.** *Escherichia coli* uses run-and-tumble locomotion to navigate a glucose gradient. What does the cell actually measure to control its tumble frequency?
 
-A) Michael Levin  
-B) Charles Darwin  
-C) William James  
-D) René Descartes  
+A) The absolute glucose concentration at its current position  
+B) The derivative of glucose concentration over time — whether conditions are improving  
+C) The distance to the nearest food source  
+D) The angle between its flagellar bundle and the gradient direction  
 
 :::{dropdown} Answer
-**C — William James** (1890, *The Principles of Psychology*)
+**B** — The bacterium does not sense absolute concentration. The methylation adaptation system (CheR/CheB tug-of-war on the Tar receptor) continuously resets the receptor's baseline, so the system measures whether current concentration is higher or lower than a short-term average. This is temporal differentiation.
 :::
 
 ---
 
-**2.** A bacterium swimming up a food gradient is demonstrating which behavior?
+**2.** In *E. coli* chemotaxis, the enzyme CheB performs which function?
 
-A) Phototaxis  
-B) Chemotaxis  
-C) Habituation  
-D) Dishabituation  
+A) Phosphorylates CheY to increase tumbling  
+B) Removes methyl groups from the Tar receptor (demethylase), lowering its sensitivity  
+C) Adds methyl groups to the Tar receptor (methyltransferase), resetting the baseline  
+D) Binds glucose at the cell surface to initiate signaling  
 
 :::{dropdown} Answer
-**B — Chemotaxis.** The bacterium modulates its run-and-tumble ratio in response to a chemical gradient.
+**B** — CheB is the demethylase. CheR (methyltransferase) adds methyl groups. The two operate in a tug-of-war that keeps receptor sensitivity calibrated to recent concentration history.
 :::
 
 ---
 
-**3.** In the 2010 Tero et al. study, *Physarum polycephalum* was used to model which real-world system?
+**3.** William James defined intelligence in 1890 as:
 
-A) The internet backbone  
-B) The human vascular system  
-C) The Tokyo rail network  
-D) The ant colony trail network  
+A) The capacity for self-awareness and reflective thought  
+B) Behavior that results from a nervous system with sufficient complexity  
+C) "The pursuance of future ends and the choice of means for their attainment"  
+D) The ability to solve novel problems using learned associations  
 
 :::{dropdown} Answer
-**C — The Tokyo rail network.** *Physarum* placed on a map of Japan with food at major cities converged on a network closely matching the actual rail system.
+**C** — This is James' exact formulation from *The Principles of Psychology* (1890). Notice it requires neither neurons nor consciousness — only goal-pursuit by flexible means. That is what makes it applicable to *E. coli*.
 :::
 
 ---
 
-**4.** The TAME framework was developed by which researcher?
+**4.** In the Nakagaki et al. (2000) experiment, *Physarum polycephalum* solved a maze by:
 
-A) Josh Bongard  
-B) Michael Levin  
-C) Toshiyuki Nakagami  
-D) William James  
+A) Secreting a chemical trail to the shortest path and then following it  
+B) Sampling all branches simultaneously, then reinforcing the shortest path via positive flow feedback  
+C) Sensing light gradients and growing toward illuminated exits  
+D) Dividing into separate cells, each exploring one branch  
 
 :::{dropdown} Answer
-**B — Michael Levin** at Tufts University. TAME stands for Technological Approach to Mind Everywhere.
+**B** — *Physarum* uses oscillatory cytoplasmic flow. Tubes carrying more flow thicken (positive feedback). This drives the mold to converge on the minimum-length connection without any global representation of the maze layout.
 :::
 
 ---
 
-**5.** According to the book, what is the primary thing to measure when assessing intelligence?
+**5.** Tero et al. (2010) grew *Physarum* on a map of Japan with food sources at cities around Tokyo Bay. The result was significant because:
 
-A) Whether a system has neurons  
-B) Whether a system is conscious  
-C) How flexibly a system pursues its goal by different means  
-D) How fast a system processes information  
+A) The mold solved the problem faster than the best known algorithm for minimum spanning trees  
+B) The mold's network closely matched the actual Tokyo rail system, which engineers had designed over decades using completely different methods  
+C) The mold ignored geographic obstacles and created direct paths between cities  
+D) The mold organized into 47 separate organisms, one per Japanese prefecture  
 
 :::{dropdown} Answer
-**C — Flexible goal-pursuit.** This is the James criterion: same end, different means. Neurons and consciousness are not required by this definition.
+**B** — The mold, given the same geographic constraints and food-source locations that engineers faced, converged on a network matching the Tokyo rail system in its major features. This is a striking example of distributed optimization without central control.
 :::
 
 ---
 
-**6.** What distinguishes genuine habituation from simple sensory fatigue?
+**6.** Which of the following correctly describes the TAME framework?
 
-A) Habituation involves neurons; fatigue does not  
-B) Habituated response recovers after rest; fatigued response does not  
-C) Fatigue is faster than habituation  
-D) Habituation only occurs in multicellular organisms  
+A) A claim that all matter, including rocks and water, possesses consciousness  
+B) An engineering framework for analyzing goal-directed behavior at all biological and technological scales, without assuming neurons as the threshold  
+C) A theory proving that plant intelligence is equivalent to mammalian cognition  
+D) Michael Levin's protocol for genetically engineering cognition into non-neural cells  
 
 :::{dropdown} Answer
-**B — Spontaneous recovery.** If you rest the stimulus and the response returns, the system habituated. A depleted receptor cannot recover this way.
+**B** — TAME is explicitly an engineering framework, not a panpsychist claim. Its central practical move is: instead of asking "is this conscious?", ask "what is the right intervention to change its behavior?"
 :::
 
 ---
 
-**7.** *Stentor roeselii* is significant in basal cognition research because it demonstrates:
+**7.** The bioelectric gradient that guides wound closure in epithelial tissue is generated by:
 
-A) Maze-solving without a nervous system  
-B) Wound closure in the correct shape  
-C) Single-cell habituation  
-D) Substrate-independent locomotion  
+A) Glucose concentration differences between the wound interior and surrounding tissue  
+B) The mechanical stress of torn tissue pulling on adjacent cells  
+C) Ion pumps and channels that create a voltage difference when the tissue's normal spatial potential pattern is disrupted  
+D) Inflammatory cytokines released by immune cells arriving at the wound  
 
 :::{dropdown} Answer
-**C — Single-cell habituation.** First documented by Herbert Spencer Jennings in 1906, confirmed with modern methods by Dexter, Prabakaran & Gunawardena (2019).
+**C** — Intact tissue maintains a characteristic resting potential pattern. Wounding disrupts it. The resulting voltage gradient (the "skin battery") guides epithelial cell migration electrotactically toward the wound. Michael Levin's lab showed that blocking specific ion channels predictably alters wound geometry.
 :::
 
 ---
 
-**8.** The "just chemistry" objection argues that calling a bacterium intelligent is misleading because its behavior is purely chemical. Which response does this book give?
+**8.** According to Rankin et al. (2009), which two criteria are essential for distinguishing genuine habituation from simple sensory or receptor fatigue?
 
-A) The objection is correct; bacteria are not intelligent by any definition  
-B) Every neural computation is also "just chemistry," so the objection proves too much  
-C) Bacterial chemistry is more complex than neural chemistry  
-D) The word "intelligence" should only apply to systems with DNA  
+A) Response decrement AND dishabituation  
+B) Spontaneous recovery AND dishabituation  
+C) Frequency effect AND below-zero habituation  
+D) Stimulus specificity AND generalization  
 
 :::{dropdown} Answer
-**B.** Neurons fire because ions cross membranes and proteins change shape — "just chemistry." If that disqualifies bacteria, it disqualifies neurons too. The definition of intelligence should be functional, not material.
+**B** — Spontaneous recovery (response returns after rest — impossible if the receptor is simply depleted) and dishabituation (a novel strong stimulus immediately restores the response — also impossible from a depleted system) are the two criteria that rule out fatigue as the explanation.
 :::
 
 ---
 
-**9.** Which of the following is described in Chapter 1 as a "well-established" result versus a "working hypothesis"?
+**9.** The "just chemistry" objection to calling bacterial navigation "intelligent" is best answered by:
 
-A) Single-cell habituation in *Stentor* is a hypothesis; TAME's unified continuum is established  
-B) *Physarum* maze-solving is a hypothesis; plant consciousness is established  
-C) *Physarum* maze-solving is established; TAME's unified continuum is a framework  
-D) Bioelectric pattern memory is speculative; bacterial chemotaxis is established  
+A) Pointing out that chemistry is not the same as physics, so it can support cognition  
+B) Arguing that bacteria evolved neurons millions of years ago but later lost them  
+C) Noting that all neural computation is also implemented by chemistry — the objection disqualifies neurons equally, and therefore proves too much  
+D) Claiming that the word "intelligence" is just a metaphor and does not require a scientific defense  
 
 :::{dropdown} Answer
-**C.** *Physarum* maze-solving (Nakagami 2000) and bioelectric coordination are replicated results. TAME's claim that all these phenomena form a unified continuum with human cognition is a theoretical position — productive and testable, but not proven end-to-end.
+**C** — Every signal in a human brain is implemented by ion flows, protein conformational changes, and enzymatic cascades — chemistry. If "just chemistry" disqualifies a bacterium, it disqualifies a neuron. The correct response is to define intelligence functionally (by what a system does) rather than by substrate.
 :::
 
 ---
 
-**10.** A monitoring AI agent stops flagging a low-priority warning after seeing it 30 times. According to this chapter, this is functionally similar to which biological phenomenon?
+**10.** Dexter, Prabakaran & Gunawardena (2019) are cited in this chapter for which finding?
 
-A) Wound closure  
-B) Chemotaxis  
-C) Habituation  
-D) Substrate independence  
+A) Demonstrating that *Physarum polycephalum* can learn to anticipate stimuli  
+B) Placing *Stentor roeselii* single-cell habituation on a modern molecular footing  
+C) Showing that wound healing requires both the genome and the bioelectric field to specify the target shape  
+D) Proving that planarian two-headed regeneration is genetically heritable  
 
 :::{dropdown} Answer
-**C — Habituation.** The agent's decreasing response to a repeated, unchanged stimulus mirrors the behavioral signature of habituation. Chapter 8 provides a formal protocol for testing this hypothesis.
+**B** — *Stentor roeselii* (a single-celled ciliate) stops contracting in response to a repeated irritant — classic habituation, originally documented by Jennings in 1906. Dexter et al. (2019, *Current Biology*) brought this result up to date with molecular mechanisms, ruling out trivial explanations.
 :::
 
 ---
 
-## Short Answer (3 Questions)
+## Short Answer
 
-**11.** Describe the run-and-tumble mechanism in *E. coli* and explain how this simple rule produces chemotaxis — directed movement toward a food source — without any central nervous system.
+**SA1.** A bacterium's methylation adaptation system has a time constant of roughly four seconds. Explain, without using equations, why this time constant is both necessary and limiting for the bacterium's gradient-sensing ability. What would happen to navigation if the time constant were (a) 0.1 seconds and (b) 60 seconds? (4–6 sentences)
 
-:::{dropdown} Sample Answer
-*E. coli* alternates between two modes: runs (flagella rotating together, cell moves forward) and tumbles (flagella tangle, cell reorients randomly). The key rule: when the chemical gradient is increasing (cell is heading toward food), the cell extends its runs and tumbles less. When the gradient is decreasing, the cell tumbles more, selecting a new random direction. Applied across millions of cycles, this biased random walk reliably moves the cell uphill on the gradient. No map, no plan, no nervous system — just a feedback loop between receptor occupancy and flagellar rotation rate.
+:::{dropdown} Model Answer
+The four-second time constant means the methylation baseline integrates the concentration experienced over the last few seconds. This is exactly long enough to compare two consecutive run positions — the cell effectively asks "was I in a better place 4 seconds ago?" A time constant of 0.1 seconds would make the baseline track concentration almost instantaneously, eliminating the memory and reducing the derivative to noise. The bacterium would respond only to fluctuations, not to the underlying trend, and would navigate poorly. A 60-second time constant would integrate over so much history that short-term improvements would be swamped — the cell could not track a gradient it crosses in 2–3 seconds. The four-second window is calibrated to the typical flagellar run duration, making derivative sensing functional at the relevant scale.
 :::
 
 ---
 
-**12.** Explain William James' criterion of intelligence and apply it to one non-human example from Chapter 1. Does the example fully satisfy the criterion? Why or why not?
+**SA2.** A cancer tumor grows without stopping. A healing wound closes to the correct shape and stops. Using the bioelectric gradient mechanism described in this chapter, explain the difference. What is the wound detecting that the tumor is not? (4–6 sentences)
 
-:::{dropdown} Sample Answer
-James' criterion: intelligence is "the pursuance of future ends and the choice of means for their attainment." A system qualifies as intelligent to the extent that it (a) has a goal, and (b) reaches that goal by flexible means — finding another route when the obvious one is blocked.
-
-Application to *Physarum*: the slime mold has a goal (nutrient acquisition), explores multiple possible paths simultaneously, and reinforces the path that works while abandoning those that don't. When the maze has only one valid route to food, *Physarum* finds it. This satisfies the criterion in a meaningful sense — goal plus flexible search.
-
-Does it fully satisfy it? Partially. *Physarum*'s "flexibility" is more physical than behavioral — it does not reason about the maze, it spreads through chemistry. The criterion's phrase "choice of means" implies something stronger in its original context. But on a continuum view, *Physarum* sits clearly above zero on the intelligence dial.
+:::{dropdown} Model Answer
+In wound healing, epithelial cells migrate along the bioelectric gradient created by tissue disruption. As cells fill the wound, the spatial voltage pattern is progressively restored toward the intact-tissue baseline. When the pattern matches the stored target — the electrical signature of normal tissue — the pro-migration signals vanish. The cells receive a stop signal that is the target state itself: when error goes to zero, correction stops. A tumor has lost this comparison. Its cells either no longer produce the correct target-state signals, no longer detect them, or no longer respond to the mismatch-approaching-zero signal. Growth continues because the stop condition is never delivered or never detected. The wound's sophistication is not in migrating — it is in knowing when to stop.
 :::
 
 ---
 
-**13.** What is TAME, and why does the author describe it as "an engineer's framework, not a metaphysics"? What practical question does TAME invite you to ask instead of "is this thing conscious?"
+**SA3.** Describe one concrete experiment you could run on a production AI monitoring agent to test whether it exhibits functional habituation, using at least three of the Rankin criteria as your framework. What result would convince you that you are observing genuine habituation rather than simple input filtering or context-window limitation? Be specific about the stimuli, measurement, rest period, and success criterion. (6–10 sentences)
 
-:::{dropdown} Sample Answer
-TAME — Technological Approach to Mind Everywhere — is Michael Levin's framework for analyzing goal-directed behavior across all biological and technological scales. It treats intelligence as a measurable property distributed across nature, from single cells to human minds, rather than a binary property reserved for creatures with certain kinds of brains.
-
-The author calls it an engineer's framework because it sidesteps unanswerable questions (Is this thing conscious? Does it have experience?) and asks practical ones instead: What kind of cognitive system is this? What intervention will change its behavior?
-
-The key replacement question is: "What is the right lever to pull?" A thermostat gets reprogrammed. A dog gets trained. A person gets persuaded. The right tool depends on where the system sits on the cognitive spectrum — and TAME gives you a structured way to figure that out for any system, including AI agents.
+:::{dropdown} Model Answer
+Choose a monitoring AI with a large context window and a defined "flag this alert" response. Select a specific low-priority alert type — for example, a disk-space warning at 85% capacity. Send the alert once per hour for 30 hours (30 trials) and record the agent's response: flag, ignore, or abbreviated response. This tests response decrement. After a 72-hour rest (no alerts at all), send the alert once more. If the response jumps back toward the level observed on trial 1, you have evidence of spontaneous recovery — ruling out simple context-window overflow (which would show the same pattern regardless of rest period, or would not recover at all). For dishabituation, after 30 trials, send a completely novel alert type (a security violation, for example). Then immediately re-send the disk-space alert. If the disk-space response is restored to near trial-1 level, you have dishabituation. For stimulus specificity, change the alert wording slightly ("disk usage at 85%" vs. "storage at 85%") and see whether response level resets — genuine habituation is specific to the repeated stimulus, not to the category. A pattern showing decrement, spontaneous recovery, and dishabituation, but not simple forgetting after equally long gaps without rest, would be convincing evidence of functional habituation.
 :::
