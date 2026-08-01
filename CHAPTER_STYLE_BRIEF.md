@@ -263,6 +263,12 @@ Rules that actually work:
   the model will happily print the same word twice, once as a heading and again as
   an arrow annotation. Add: `Each of these words appears EXACTLY ONCE in the entire
   image and never twice.` and `Do not put a text label on any arrow.`
+- **Ban numerals unless the numbers are the point.** "Numbered steps" invites the
+  model to miscount — one diagram came back numbered 1,2,3,4,4,5. If a figure does
+  not need numbers, write `Absolutely no numbers or numerals anywhere in the image.`
+- **Name any word the model tends to mangle and forbid it.** A cell icon labeled
+  "Cell" came back as "Gell". If the icon is self-evident, say `Do not write the
+  word Cell anywhere` and let the shape do the work.
 - **Never ask for a paragraph inside an image.** If the concept needs sentences,
   it is not a figure — build it as a MyST `list-table`, `grid`, or code block instead.
 - **Never ask the model to render code, logs, prompts, or config files.** It cannot.
