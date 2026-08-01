@@ -185,6 +185,43 @@ Every chapter must include:
 - **Cross-references** — `[](#label)` to figures and to other chapters
 - **A worked example** — at least one thing walked through step by step
 
+### NESTED FENCES — KNOWN BUG, READ THIS TWICE
+
+MyST closes a directive at the **first** close marker of matching length. If a nested
+directive uses the same number of colons as its parent, the parent closes early and
+everything after it renders as a literal code block on the live site.
+
+This shipped to production once already. Do not repeat it.
+
+**WRONG — the tab-set dies at the first inner `:::`**
+```
+:::{tab-set}
+:::{tab-item} A
+text
+:::
+:::
+```
+
+**RIGHT — outer fence is longer than inner**
+```
+::::{tab-set}
+:::{tab-item} A
+text
+:::
+::::
+```
+
+Rule: **every container that wraps other directives gets one more colon than its
+deepest child.** This applies to `tab-set` (wraps `tab-item`) and `grid` (wraps
+`grid-item-card`) — the two you are required to use.
+
+Check before reporting done:
+```bash
+node /home/node/openclaw/skills/book-writer/scripts/check-fences.js chapters/chNN-*.md
+```
+
+---
+
 ### DOLLAR SIGNS — KNOWN BUG
 Any `$` before a digit is parsed as math and renders as garbage. Always escape: `\$500 million`, not `$500 million`. Frontmatter is exempt.
 
@@ -210,6 +247,24 @@ node /home/node/openclaw/skills/book-writer/scripts/generate-image.js \
 
 **Every prompt must include these style keywords for cross-chapter consistency:**
 > "Professional textbook illustration. Clean modern infographic style. Deep teal and lime green color scheme with slate gray accents. White or very light background. Labeled components with clear typography. Biology and artificial intelligence education context. Wide landscape format, high resolution."
+
+**KEEP TEXT IN IMAGES SPARSE — THIS IS THE #1 IMAGE FAILURE.**
+
+Image models garble small text. Reliably. A diagram asking for twenty labels comes
+back with "Micressopic," "PROBLIDI SOLVING," and "milrennia." We found nine such
+images in chapters 1–4 and had to regenerate them all.
+
+Rules that actually work:
+
+- **Ten labels maximum per image.** Fewer is better.
+- **Whitelist them.** End every prompt with the exact permitted strings:
+  `The ONLY text in the image is: "Run", "Tumble", "Gradient". No other text, labels, captions, or writing anywhere.`
+- **Never ask for a paragraph inside an image.** If the concept needs sentences,
+  it is not a figure — build it as a MyST `list-table`, `grid`, or code block instead.
+- **Never ask the model to render code, logs, prompts, or config files.** It cannot.
+  Use a fenced code block in the chapter.
+- File size over 50KB means the file exists. It does **not** mean the text is legible.
+  Size is not a quality check.
 
 **Naming:** `images/chNN-descriptive-name.png` — lowercase, hyphens, PNG only.
 
@@ -296,5 +351,7 @@ Keep it tight. One sharp, specific application beats a survey of five vague ones
 - [ ] No quiz content in the chapter file
 - [ ] Quiz file written separately
 - [ ] Colab notebook written and badge URL matches the filename
+- [ ] check-fences.js passes — no nested directive shares its parent's fence length
+- [ ] Every image prompt whitelisted its labels; no image asks for a paragraph or code
 - [ ] validate-chapter.js exits 0
 - [ ] Read your opening 3 paragraphs out loud. Do they sound like Dr. Lee's sample? If not, rewrite them.

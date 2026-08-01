@@ -231,14 +231,49 @@ The biology tells you exactly what breaks next.
 
 **Over-specification makes brittle sub-agents.** If you give a sub-agent a 40-step procedure instead of a goal, it follows the procedure. When step 14 fails — because the external API changed, or the document format shifted — the agent stops. It has no goal to fall back on. It only has a script that no longer works.
 
-:::{figure} ../images/ch04-overspecified-vs-outcome.png
-:label: fig-ch04-overspecified-vs-outcome
-:alt: Two annotated agent prompts side by side — left showing over-specified rigid steps with red failure annotations, right showing outcome-specified goal with green adaptability annotations.
-:width: 80%
-:align: center
+Here is the same task written both ways. Read the left one and find the step where it dies.
 
-Same task, two prompt philosophies. The over-specified version fails at step 14. The outcome-specified version reroutes. This is not about prompt length; it is about what the prompt encodes — procedure or destination.
+::::{tab-set}
+
+:::{tab-item} Over-specified (brittle)
+```text
+Fetch open tickets from Product_Bug_Tracker via GET /v2/issues.
+Filter to status=open.
+Sort chronologically, oldest first.
+For each ticket:
+  1.  Open the ticket detail page.
+  2.  Copy the description field.
+  3.  Download every attachment to ./attachments/.
+  4.  Open each attachment and read it.
+  5.  Run sentiment analysis on the description.
+  6.  Normalize the sentiment score to 0-1.
+  7.  If score < 0.3, tag "urgent".
+  8.  Post the tag back via PUT /v2/issues/{id}/tags.
+  9.  Email the owner using the internal relay.
+  10. Log the result to ./run.log.
+Terminate when the list is exhausted.
+```
+**Step 3 fails.** The tracker moved attachments behind a signed URL last week. The agent has no goal to fall back on — only a script that no longer works. It stops, or worse, it continues and silently produces nothing.
 :::
+
+:::{tab-item} Outcome-specified (adaptive)
+```text
+Goal: every open bug report should carry an accurate urgency tag,
+and the owner of anything urgent should know about it today.
+
+Constraints:
+  - Do not change ticket text or status.
+  - Do not contact anyone outside the owner.
+  - If you cannot read a ticket, flag it rather than guessing.
+
+You have: the tracker API, the mail relay, and a sentiment model.
+```
+**Step 3 has no equivalent to fail.** Attachments were never the point. If the agent cannot open one, it still has the description, and it still knows what "done" means. It reroutes and finishes, or it flags what it could not read.
+:::
+
+::::
+
+The difference is not prompt length. Both are about the same size. The difference is what the prompt encodes: a procedure or a destination.
 
 **Under-specification makes unpredictable sub-agents.** Give a sub-agent only "do something useful about customer retention" and it has too much freedom. It might optimize a metric you did not mean to optimize. It might take an action outside the scope you intended. The biology has the same problem: tumor suppressor genes are part of the answer to keeping cells from running their own agenda without tissue-level constraint.
 
