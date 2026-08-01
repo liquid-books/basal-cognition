@@ -269,6 +269,15 @@ Rules that actually work:
 - **Name any word the model tends to mangle and forbid it.** A cell icon labeled
   "Cell" came back as "Gell". If the icon is self-evident, say `Do not write the
   word Cell anywhere` and let the shape do the work.
+- **Never render a table, matrix, or flowchart with branch labels as an image.**
+  If it has rows and columns, it is a `list-table`. If it has decision branches, it
+  is a `mermaid` block. Both stay searchable, screen-readable, and correct. Two ch08
+  images had to be deleted for this. And never place a figure that restates the table
+  sitting right beneath it.
+- **Do not let a section heading repeat as an icon caption.** Infographics love to
+  label the illustration with the same words as the panel title above it. Add:
+  `Do not label the individual icons. Do not repeat a heading underneath its own
+  illustration.`
 - **Never ask for a paragraph inside an image.** If the concept needs sentences,
   it is not a figure — build it as a MyST `list-table`, `grid`, or code block instead.
 - **Never ask the model to render code, logs, prompts, or config files.** It cannot.
