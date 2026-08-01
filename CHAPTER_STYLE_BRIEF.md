@@ -12,63 +12,132 @@ Local: `/home/node/openclaw/books/basal-cognition/`
 
 ## THE VOICE — THIS IS THE WHOLE JOB
 
-Dr. Lee gave us the target voice directly. Study it:
+**The bar: every chapter is a masterclass. Every chapter is a TED talk.**
 
-> Things without brains still act smart. A cell moves toward food. A cut on your arm closes up in the right shape. Mold in a dish finds the shortest path through a maze. Nobody told them how. They just do it.
->
-> Basal intelligence is the study of that.
->
-> The big idea: being smart isn't something brains invented. Brains just made it bigger.
->
-> A germ cares about right here, right now. A cell in a baby cares about building a whole hand over weeks. You can care about your kids' future. That range — how big and how far — is the main thing to measure.
->
-> Cancer is interesting here. A cancer cell used to care about the whole liver. Now it only cares about itself. It didn't get dumber. Its circle of caring shrank.
+Not a textbook chapter with a friendly tone. A performance. The reader should not be
+able to put it down. If a section could be skimmed without loss, it is not written yet.
 
-Notice what that does:
+### The model: Arvin Ash
 
-1. **Short sentences.** Many are under ten words. "They just do it." "That's it. That's the learning."
-2. **Concrete before abstract.** The bacterium comes first. The word *chemotaxis* comes later, or never.
-3. **No hedging.** No "arguably," "it could be suggested that," "in some sense."
-4. **Plain words.** "Circle of caring," not "cognitive light cone" — the technical term is introduced *after* the plain one, once, and then you can use it.
-5. **Surprise is the engine.** Every few paragraphs the reader should think *wait, what?* Cut a worm in half and get two worms. One giant cell curls around itself to make the tube. Skin cells build a swimming animal.
-6. **Second person.** Talk to the reader. "You ignore the fridge hum." "Cut the sharing and one worm becomes two."
+Dr. Lee named the target explicitly. Study how Ash actually builds an explanation —
+this is his real opening on why life is carbon-based:
+
+> "All life is based on carbon chemistry. But carbon is not the most abundant element
+> on earth. 20% of our body is made up of carbon, but it comprises less than 1% of the
+> mass of the earth's atmosphere, oceans and crust. Why did life go to the trouble of
+> concentrating carbon 20-fold in our bodies, when other more abundant elements were
+> available? The answer boils down to three things: complexity, abundance and stability."
+
+Six moves are happening there. Use all six in every chapter.
+
+1. **Open on an anomaly with a number in it.** Not a topic — a puzzle. "20% of you,
+   under 1% of the planet." The number makes it feel like a fact, and the mismatch
+   makes it feel like a mystery. Never open with "This chapter explores..."
+2. **Name the shape of the answer immediately.** "It boils down to three things:
+   complexity, abundance, stability." The reader now has a container. They will hold
+   attention across 4,000 words if they know how many pieces are coming.
+3. **One homely analogy per abstract point.** "You can't build a castle if you don't
+   have enough Lego bricks." Kitchen-table objects. Never an analogy that needs its
+   own explanation.
+4. **Raise the smart reader's objection *before* they can.** "What about silicon? It
+   also forms four bonds. In fact there's more silicon on Earth than carbon." Ash goes
+   looking for the strongest counterexample and handles it in the open. This is the
+   single biggest trust-builder available to you. Do it at least twice per chapter.
+5. **Go to real mechanism, never equations.** He gets to electron shells and bond
+   strength — actual physics — without one formula. "Silicon's unpaired electrons sit
+   farther from the nucleus, on the third shell, so its bonds are weaker." That is
+   graduate-level content in plain words. **This is the whole trick of the book.**
+   Depth is not the enemy of clarity. Vagueness is.
+6. **Close by elimination.** Walk the candidates off the table one at a time until
+   only the answer is standing. Endings should feel like a door clicking shut.
+
+### Soundbites — MANDATORY, 6 to 9 per chapter
+
+Dr. Lee asked for these specifically. A soundbite is a **standalone bolded line** that
+lands a single idea hard enough to quote. It sits alone as its own paragraph.
+
+Rules:
+- **6 to 9 per chapter.** Roughly one per major section.
+- **Under 15 words.** Most should be under 10.
+- **Own paragraph, bolded, nothing else on the line.**
+- It must survive removal from context. If it needs the previous sentence to make
+  sense, it is not a soundbite.
+- Never two in a row. They need prose around them to hit.
+
+Good:
+> **Brains did not invent intelligence. They scaled it.**
+
+> **Cancer is not a cell that got dumber. It is a cell whose circle of caring shrank.**
+
+> **The hard part of healing is not closing. It is stopping.**
+
+Bad (explains instead of lands):
+> **Cellular systems demonstrate goal-directed behavior across multiple scales.**
 
 ### Hard rules on prose
 
-- **Average sentence length under 15 words.** Vary it — some 4-word sentences, some 25-word ones. But if you write three long sentences in a row, break one.
-- **No paragraph longer than 5 sentences.** Most should be 2–4.
+- **Average sentence length under 15 words.** Vary hard — some 4-word sentences, some
+  25-word ones. Three long sentences in a row means break one.
+- **No paragraph longer than 5 sentences.** Most 2–4.
 - **Ban list — never use these words or phrases:**
   `delve, leverage, robust, paradigm, tapestry, landscape (figurative), navigate (figurative), unpack, harness, realm, testament, underscore, pivotal, crucial, myriad, plethora, moreover, furthermore, it is worth noting, in today's world, in the modern era, at its core, fundamentally, essentially, arguably, multifaceted, holistic, synergy, game-changer, revolutionize, cutting-edge, seamless, dive deep, deep dive, journey, embark, foster, facilitate, utilize, elucidate, nuanced interplay`
-- **Ban em-dash overuse.** Max one em-dash per paragraph.
+- **Max one em-dash per paragraph.**
 - **No "Let's explore..." / "In this section we will..."** Just start.
-- **No rhetorical question stacks.** One rhetorical question per section maximum.
-- **Numbers stay concrete.** "Cut a flatworm into 279 pieces and you get 279 worms" beats "flatworms display remarkable regenerative capacity."
+- **One rhetorical question per section maximum.**
+- **Numbers stay concrete.** "Cut a flatworm into 279 pieces and you get 279 worms"
+  beats "flatworms display remarkable regenerative capacity."
+- **Name the scientist and the year.** "In 2000, Toshiyuki Nakagaki put slime mold in
+  a maze." Real people doing real experiments reads as authority. Vague passive
+  attribution reads as filler.
 
 ### The 5-step concept formula (MANDATORY for every core concept)
 
-Every core idea gets this treatment, in this order:
-
-1. **Something they already know.** A fridge hum. A thermostat. A GPS. A group chat. A kid learning to ride a bike.
-2. **Build the bridge.** Show how that maps onto the biology.
-3. **Name it.** *Now* give the technical term. Anchor it to the analogy.
+1. **Something they already know.** A fridge hum. A thermostat. A group chat.
+2. **Build the bridge.** Map it onto the biology.
+3. **Name it.** *Now* the technical term. Anchor it to the analogy.
 4. **Where the analogy breaks.** One honest sentence. This buys trust.
-5. **Why it matters.** Not "why a CFO cares" — why *anyone* cares. What becomes possible? What does it fix? What does it predict that the old view got wrong? Make the reader feel the weight. One solid paragraph, concrete, with real stakes.
+5. **Why it matters.** What becomes possible? What does the old view get wrong?
+   One solid paragraph, real stakes.
 
-### The 9th-Grader Test
+### The level: a sharp 17-year-old — NOT a 12-year-old
 
-Could a bright 14-year-old follow this with zero biology background? If no, rewrite. Not dumbed down. Genuinely clear. There is a difference and the reader can feel it.
+This changed. The previous version of this brief targeted a 14-year-old and the
+result read as too simple. Dr. Lee's correction: **a 17-year-old should understand it,
+and it should function as an upper-level undergraduate or graduate text.**
 
-### The Dinner Table Test
+What that means concretely:
 
-Could the reader explain this to a friend over dinner, with no notes and no diagram? If the explanation needs a picture to work, the words aren't good enough yet. The picture should *reinforce*, never *rescue*.
+- **Assume real intellectual stamina.** The reader can hold a three-part argument
+  across ten pages. Stop over-restating.
+- **Mechanism at full depth.** Bioelectric gradients, gap junctions, resting membrane
+  potential, ion channels — name them and explain how they actually work. The old
+  brief said the technical term could come "later, or never." **Wrong. It always
+  comes, and it comes with its mechanism.**
+- **Real citations inline.** Author and year, in the prose.
+- **Genuine open problems.** Say plainly what is unresolved and where the field
+  disagrees. A graduate reader wants the edges, not a tidy story.
+- **No baby talk.** Cut "Now here's the cool part," "Pretty wild, right?", and any
+  sentence that congratulates the reader for still reading.
+- Still no equations. Still no jargon without a plain-language landing first. Clarity
+  is not the thing being relaxed — **the ceiling on difficulty is.**
+
+### The Dinner Table Test (still applies)
+
+Could the reader explain the core idea to a friend, with no notes and no diagram? If
+the explanation needs a picture to work, the words aren't good enough. The picture
+should *reinforce*, never *rescue*.
 
 ---
 
 ## AUDIENCE
 
-Everyone. Truly. A curious high schooler, a nurse, a software engineer, a philosopher, a retired teacher. No biology background. No physics. No math beyond "bigger and smaller."
+Upper-level undergraduates, graduate students, and technically serious general
+readers. A sharp 17-year-old should follow every page. No biology background. No
+physics. No math beyond "bigger and smaller."
 
-Do NOT write this for executives. Do NOT write "for business leaders." No CFO framing, no board decks, no ROI paragraphs. When you need to show why something matters practically, use engineers, doctors, teachers, or anyone building AI systems — real people doing real work.
+Do NOT write for executives. No CFO framing, no ROI paragraphs. When showing why
+something matters practically, use engineers, doctors, researchers, teachers — real
+people doing real work.
 
 ---
 
@@ -116,21 +185,58 @@ Chapter overview.
 ## 🔬 Hands-On Lab: [Title]
 [No-code / low-barrier. Anyone with a browser can do it.]
 
-**Group Build:**
-1. Use AI to identify a real problem in your own context.
-2. Use AI to develop a solution to it.
-3. Be ready to tell the class: what problem, how AI helped, what the solution looks like, and what the AI got right or missed.
+## 🛠️ Build It: [Specific Thing They Build] (Two Paths)
 
-## 🐍 Optional Advanced Lab: [Title]
-<a href="https://colab.research.google.com/github/liquid-books/basal-cognition/blob/main/notebooks/chNN-lab-slug.ipynb" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="margin-bottom: 1rem;"/>
-</a>
+[REQUIRED IN EVERY CHAPTER. They must BUILD the chapter's main concept — not read
+about it. Give ONE build target, reachable two ways, so a non-programmer is never
+locked out.]
 
-[Description of what they'll build.]
+**What you're building:** [One sentence. Concrete and demoable.]
 
-## 🎯 In-Class Assignment: [Title] (10 pts)
+::::{tab-set}
 
-**Details and instructions will be provided in class.**
+:::{tab-item} Path A — Colab (Python)
+[Colab badge with the REAL notebook filename, then 4–6 numbered implementation steps.
+Name the functions they write. State the success criterion as an observable output.]
+:::
+
+:::{tab-item} Path B — Vibe Code (No Python)
+[A COMPLETE, COPY-PASTEABLE prompt in a fenced block, 150–250 words, that gets a
+working artifact out of Claude/ChatGPT/Cursor on the first try. It must specify: the
+artifact (single-file HTML, sliders, live chart), the exact mechanism from the chapter,
+what the user can manipulate, and what they should SEE. Then 3–4 follow-up prompts
+that deepen it. This path is NOT a lesser option — it must produce something as
+impressive as Path A.]
+:::
+
+::::
+
+**Success check:** [One observable thing that proves it works. Same for both paths.]
+
+## 🔍 Research Frontier: [Specific Open Question] (2-page paper)
+
+[REQUIRED IN EVERY CHAPTER. A genuinely unresolved question at the edge of the field —
+something published in roughly the last three years where the answer is not yet known.
+NOT a book report. NOT a summary of settled science.]
+
+**The question:** [State the open problem in 2–3 sentences. Make it feel alive.]
+
+**Why it's open:** [What specifically is missing — a measurement, a mechanism, a
+control experiment? 2–3 sentences.]
+
+**Starting points:** [3–4 real, verifiable papers or labs. Author, year, and title or
+venue. Never invent a citation. If unsure it exists, cite the lab and topic instead.]
+
+**Deliverable:** A 2-page paper (roughly 800–1,000 words) that: states the question,
+summarizes what is currently known, identifies the specific gap, and proposes one
+concrete experiment or approach that could close it. Cite at least four sources.
+
+## ⚙️ Applied Exercise: [Real Thing They Make] (10 pts)
+
+[REQUIRED IN EVERY CHAPTER. Takes the chapter's concept OUT of biology and INTO
+something they actually use or work on. Not a thought experiment — a deliverable.
+Specify the artifact, the constraint that makes it hard, and how it will be judged.
+Fully self-contained: never "details provided in class."]
 
 **Points:** 10
 
@@ -138,13 +244,21 @@ Chapter overview.
 [15+ terms. Definitions in the same plain voice. Use a list-table or definition list.]
 
 ## 🔑 The Takeaway
-[5–8 bullets. Each one a short punchy sentence someone would actually remember.]
+[5–8 bullets. Each a short punchy sentence someone would actually remember.]
 ```
 
 ### Absolute structural rules
 
 - **NO quizzes or multiple-choice in the chapter file.** Write them to `quizzes/chNN-quiz.md` instead. Format: one file, questions, then answers embedded in `:::{dropdown}` blocks. That file is NOT in the TOC.
-- **In-Class Assignment gets title + "Details provided in class" + points. NOTHING ELSE.**
+- **Every chapter has FOUR graded end-matter pieces beyond Discussion: Build It,
+  Research Frontier, Applied Exercise, plus the Hands-On Lab.** None of them may say
+  "details provided in class." That placeholder is banned — it was in all 8 chapters
+  of the first draft and Dr. Lee flagged the whole set as under-built.
+- **Build It must have both paths.** Colab AND a vibe-code prompt. A reader who does
+  not write Python must still be able to build the concept and see it run.
+- **Notebook filenames must be real.** Use `chNN-lab-<actual-topic>.ipynb` and create
+  the file. Never ship the literal placeholder `chNN-lab-slug.ipynb` — ch01 shipped
+  exactly that and the Colab badge pointed at a file named "slug".
 - **Discussion is an individual online assignment.** Never mention small groups, debates, seminars, or synchronous class time in the Discussion section.
 
 ---
@@ -247,6 +361,42 @@ node /home/node/openclaw/skills/book-writer/scripts/generate-image.js \
 
 **Every prompt must include these style keywords for cross-chapter consistency:**
 > "Professional textbook illustration. Clean modern infographic style. Deep teal and lime green color scheme with slate gray accents. White or very light background. Labeled components with clear typography. Biology and artificial intelligence education context. Wide landscape format, high resolution."
+
+### THE IMAGE MUST CARRY THE IDEA, NOT DECORATE IT
+
+Dr. Lee's verdict on the first draft: **the images are not powerful and do not
+reinforce the main concepts.** Technically clean is not the bar. This is.
+
+Before writing any prompt, answer in one sentence: *what single idea does this image
+make impossible to forget?* If you cannot answer, do not generate the image.
+
+**Aim for the ONE image per chapter that could go on the cover.** Every chapter should
+have at least one figure a reader would screenshot and send to a friend.
+
+What makes an image powerful here:
+
+- **Show the anomaly, not the apparatus.** A labeled diagram of a flagellum is a
+  textbook figure. Two worms where there was one worm is an *argument*. Draw the
+  thing that shouldn't be possible.
+- **Before/after beats annotated cross-section.** The reader's eye does the reasoning
+  for you. Half a worm becoming a whole worm. A maze full of mold becoming one clean
+  path. A blank frog flank growing an eye.
+- **Contrast beats catalogue.** Two panels that disagree teach faster than six panels
+  that coexist. If you have six things, ask which two carry the fight.
+- **Scale shock is free drama.** Put the single cell next to the thing it built.
+- **One idea per image.** If the caption needs "and," split it into two figures.
+
+Anti-patterns that produced the weak first draft:
+- Generic icon grids (a brain, a gear, a lightbulb, an arrow) — says nothing
+- Flowcharts of the chapter's own section order — that is a table of contents
+- Any figure whose caption could be swapped with another figure's caption
+- Decorative "AI concept" imagery: glowing circuit boards, blue neural meshes, robot
+  heads staring thoughtfully. Banned. They are stock filler.
+
+**Captions do real work.** A caption states what the reader should notice and why it
+matters — not what the image contains. Bad: "Diagram of planarian regeneration." Good:
+"Cut it in half and each piece rebuilds a whole worm, then stops. The stopping is the
+hard part to explain."
 
 **KEEP TEXT IN IMAGES SPARSE — THIS IS THE #1 IMAGE FAILURE.**
 
@@ -359,18 +509,46 @@ Keep it tight. One sharp, specific application beats a survey of five vague ones
 
 ## SELF-CHECK BEFORE YOU REPORT DONE
 
+**Voice and engagement (the part that got rejected last time):**
+- [ ] Opening hooks on a concrete anomaly, ideally with a number. Not a topic sentence.
+- [ ] The shape of the answer is named early ("three things," "two mechanisms")
+- [ ] **6–9 soundbites**: standalone bolded lines, under 15 words, each quotable alone
+- [ ] At least **two** places where you raise the smart reader's objection and answer it
+- [ ] Mechanism explained at real depth — ion channels, gap junctions, actual biology
+- [ ] Scientists named with years, inline
+- [ ] Chapter ends by elimination or with a door-closing line, not a summary
+- [ ] Read the opening out loud. Is it a TED talk opening? If not, rewrite.
+- [ ] No baby talk. No "pretty wild, right?" No congratulating the reader.
+- [ ] Would a sharp 17-year-old follow it? Would a grad student not feel talked down to?
+
+**End matter (all four required, none stubbed):**
+- [ ] 🔬 Hands-On Lab — no-code, browser only
+- [ ] 🛠️ Build It — BOTH Path A (Colab) and Path B (full copy-pasteable vibe-code prompt)
+- [ ] 🔍 Research Frontier — real open question, 3–4 verifiable real citations, 2-page paper
+- [ ] ⚙️ Applied Exercise — concrete deliverable, fully specified, 10 pts
+- [ ] Zero occurrences of "provided in class"
+- [ ] Notebook filename is real and descriptive, badge URL matches, file exists
+
+**Images:**
+- [ ] 12 images exist on disk, all referenced, none is a table or branch-flowchart
+- [ ] For each: you can state in one sentence the idea it makes unforgettable
+- [ ] At least one image is cover-quality
+- [ ] Zero glowing-circuit / robot-head / neural-mesh stock filler
+- [ ] Captions say what to notice and why it matters, not what the image contains
+- [ ] Every prompt whitelisted its labels, said each appears exactly once, banned
+      stray numerals, and put no text on arrows
+- [ ] **You did NOT self-certify the images as clean.** Report them for independent
+      review instead. Every prior chapter reported 12/12 clean and every one had at
+      least one defect. You cannot proofread your own image text. File size proves
+      nothing — corrected images are often smaller.
+
+**Mechanics:**
 - [ ] Word count 4,000–5,000 (`wc -w`) — if over, CUT, don't justify
-- [ ] 12 images exist on disk, all >50KB, all referenced
 - [ ] Zero banned words (grep for a few)
 - [ ] No paragraph over 5 sentences
 - [ ] Every core concept has all 5 formula steps
 - [ ] No unescaped `$` before digits
 - [ ] Glossary has 15+ terms
-- [ ] In-Class Assignment is title + "provided in class" + points, nothing more
-- [ ] No quiz content in the chapter file
-- [ ] Quiz file written separately
-- [ ] Colab notebook written and badge URL matches the filename
-- [ ] check-fences.js passes — no nested directive shares its parent's fence length
-- [ ] Every image prompt whitelisted its labels; no image asks for a paragraph or code
+- [ ] No quiz content in the chapter file; quiz written separately
+- [ ] check-fences.js passes
 - [ ] validate-chapter.js exits 0
-- [ ] Read your opening 3 paragraphs out loud. Do they sound like Dr. Lee's sample? If not, rewrite them.
