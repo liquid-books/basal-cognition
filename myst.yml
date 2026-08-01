@@ -1,0 +1,65 @@
+# MyST project configuration
+# Docs: https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: "Basal Cognition"
+  subtitle: "How Intelligence Works Without a Brain — and What That Means for Machines"
+  authors:
+    - name: Dr. Ernesto Lee
+  description: |
+    Cells navigate. Wounds close in the right shape. Slime mold solves mazes.
+    Nobody taught them how. Basal Cognition is a plain-language field guide to
+    intelligence that runs without a brain — and a working blueprint for testing
+    whether our AI systems have it too.
+  keywords:
+    - basal cognition
+    - TAME
+    - Michael Levin
+    - diverse intelligence
+    - morphogenesis
+    - bioelectricity
+    - cognitive light cone
+    - habituation
+    - AI agents
+    - multi-scale competency
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/liquid-books/basal-cognition
+  # Numbering
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    figure: true
+    table: true
+    equation: true
+  exports:
+    - format: pdf
+  # Table of contents — chapters added here as they are written
+  toc:
+    - file: index.md
+    - title: "Chapter 1: Intelligence Without a Brain"
+      file: chapters/ch01-intelligence-without-a-brain.md
+    - title: "Chapter 2: Degrees of Smart"
+      file: chapters/ch02-degrees-of-smart.md
+    - title: "Chapter 3: The Circle of Caring"
+      file: chapters/ch03-the-circle-of-caring.md
+    - title: "Chapter 4: Smart Things Made of Smart Things"
+      file: chapters/ch04-smart-things-made-of-smart-things.md
+    - title: "Chapter 5: The Body Knows Its Own Shape"
+      file: chapters/ch05-the-body-knows-its-own-shape.md
+    - title: "Chapter 6: Glue"
+      file: chapters/ch06-glue.md
+    - title: "Chapter 7: It Doesn't Matter What It's Made Of"
+      file: chapters/ch07-it-doesnt-matter-what-its-made-of.md
+    - title: "Chapter 8: Does Your AI Get Bored?"
+      file: chapters/ch08-does-your-ai-get-bored.md
+
+site:
+  title: "Basal Cognition"
+  options:
+    logo_text: "Basal Cognition"
+    logo_url: "/basal-cognition/"
+    favicon: images/cover.png
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
