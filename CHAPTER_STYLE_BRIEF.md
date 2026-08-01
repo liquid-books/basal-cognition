@@ -170,10 +170,10 @@ Chapter overview.
 
 ### [H3 subsections as needed]
 
-## 🤔 Think About It
+## Think About It
 [ONE open-ended scenario. Genuinely hard. No right answer. 150–250 words.]
 
-## 💬 Discussion
+## Discussion
 [Prompt, then this exact block:]
 
 :::{note} Discussion Guidelines
@@ -182,10 +182,10 @@ Chapter overview.
 - Reply to at least **two** classmates with substantial feedback — extend, challenge, or add evidence. "I agree" is not a reply.
 :::
 
-## 🔬 Hands-On Lab: [Title]
+## Hands-On Lab: [Title]
 [No-code / low-barrier. Anyone with a browser can do it.]
 
-## 🛠️ Build It: [Specific Thing They Build] (Two Paths)
+## Build It: [Specific Thing They Build] (Two Paths)
 
 [REQUIRED IN EVERY CHAPTER. They must BUILD the chapter's main concept — not read
 about it. Give ONE build target, reachable two ways, so a non-programmer is never
@@ -213,7 +213,7 @@ impressive as Path A.]
 
 **Success check:** [One observable thing that proves it works. Same for both paths.]
 
-## 🔍 Research Frontier: [Specific Open Question] (2-page paper)
+## Research Frontier: [Specific Open Question] (2-page paper)
 
 [REQUIRED IN EVERY CHAPTER. A genuinely unresolved question at the edge of the field —
 something published in roughly the last three years where the answer is not yet known.
@@ -231,7 +231,7 @@ venue. Never invent a citation. If unsure it exists, cite the lab and topic inst
 summarizes what is currently known, identifies the specific gap, and proposes one
 concrete experiment or approach that could close it. Cite at least four sources.
 
-## ⚙️ Applied Exercise: [Real Thing They Make] (10 pts)
+## Applied Exercise: [Real Thing They Make] (10 pts)
 
 [REQUIRED IN EVERY CHAPTER. Takes the chapter's concept OUT of biology and INTO
 something they actually use or work on. Not a thought experiment — a deliverable.
@@ -240,12 +240,25 @@ Fully self-contained: never "details provided in class."]
 
 **Points:** 10
 
-## 📖 Glossary
+## Glossary
 [15+ terms. Definitions in the same plain voice. Use a list-table or definition list.]
 
-## 🔑 The Takeaway
+## The Takeaway
 [5–8 bullets. Each a short punchy sentence someone would actually remember.]
 ```
+
+### No decorative emoji in headings
+
+Section headings are plain text. No emoji, ever — they read as corny and cheap in a
+graduate text. This applies to every heading including the end matter: `## Hands-On Lab`,
+not `## 🔬 Hands-On Lab`. Chapters 2-8 still carry the old emoji headings; strip them
+whenever you touch a chapter.
+
+Heading titles must be **concrete and declarative, never bureaucratic labels.**
+"Case One: The Bacterium That Computes Derivatives" is a filing system. Cut the label
+and let the claim stand: "The Bacterium That Computes Derivatives." Name the anomaly
+in the heading — "The Wound That Knows When to Stop", "The Slime Mold That Redesigned
+Tokyo" — so the table of contents reads like a list of things that should be impossible.
 
 ### Absolute structural rules
 

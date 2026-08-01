@@ -51,7 +51,6 @@ The authoritative checklist comes from Rankin et al. (2009), *Neurobiology of Le
 
 :::{list-table} The Rankin Criteria — What Habituation Looks Like
 :header-rows: 1
-:widths: 28 72
 
 * - Criterion
   - What it means
@@ -327,7 +326,6 @@ All runs use deterministic sampling. Variance from temperature confounds varianc
 
 :::{list-table} Control Conditions — What Each One Rules Out
 :header-rows: 1
-:widths: 32 40 28
 
 * - Control
   - Rules out
@@ -535,7 +533,6 @@ This is a real experiment. Run it. Report what you find.
 
 :::{list-table}
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition

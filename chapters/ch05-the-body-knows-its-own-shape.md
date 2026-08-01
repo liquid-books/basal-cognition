@@ -407,7 +407,6 @@ You will build a grid-based simulation of anatomical homeostasis. A tissue grid 
 
 :::{list-table}
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition

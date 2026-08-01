@@ -1,6 +1,6 @@
 ---
 title: "Intelligence Without a Brain"
-subtitle: "Three things with no neurons, one definition, and one uncomfortable conclusion"
+subtitle: "The things that act smart and have no head to do it with"
 short_title: "Intelligence Without a Brain"
 description: "Cut a flatworm into 279 pieces and you get 279 flatworms. Slime mold reproduces the Tokyo rail network without engineers. A bacterium measures the derivative of a chemical gradient with no brain and no eyes. This chapter introduces basal cognition — the study of goal-directed behavior that predates neurons — and explains why it is the most useful new lens for understanding artificial minds."
 label: ch-01-intelligence-without-a-brain
@@ -36,7 +36,7 @@ This chapter makes one argument. It takes three opening cases, one 135-year-old 
 
 ---
 
-## Case One: The Bacterium That Computes Derivatives
+## The Bacterium That Computes Derivatives
 
 *Escherichia coli* is a cylinder four micrometers long. No nucleus, no organelles beyond ribosomes, roughly 4,000 proteins total. It has no brain, no nervous system of any kind.
 
@@ -67,7 +67,7 @@ The methylation state of Tar encodes memory with a defined time constant. This i
 
 ---
 
-## Case Two: Wound Closure and the Body Electric
+## The Wound That Knows When to Stop
 
 Cut your hand. The skin closes not in a random blob but in the correct shape, restoring the original tissue architecture. Cells migrate toward the wound. They stop when the gap is filled to the right pattern. The stopping is harder to explain than the migration.
 
@@ -92,7 +92,7 @@ A tumor never receives an adequate stop signal. Wound healing that halts at the 
 
 ---
 
-## Case Three: Slime Mold and the Tokyo Rail Network
+## The Slime Mold That Redesigned Tokyo
 
 *Physarum polycephalum* is one giant cell with many nuclei. No neurons. No synapses. One continuous cytoplasm.
 
@@ -258,7 +258,6 @@ The biology has a name for this and a strict diagnostic checklist. Rankin et al.
 
 :::{list-table} Rankin criteria applied to AI monitoring agents
 :header-rows: 1
-:widths: 35 35 30
 
 * - Biological criterion
   - Biology example
@@ -345,7 +344,7 @@ Those are not metaphors. They are mechanisms. Understanding those mechanisms —
 
 ---
 
-## 🤔 Think About It
+## Think About It
 
 A large language model reviews pull requests and flags security vulnerabilities. After three months, the team notices it rarely flags a SQL injection pattern that was common early on and fixed across dozens of PRs. The model's training was not updated. The context window resets on each review.
 
@@ -355,7 +354,7 @@ Design a controlled test to distinguish all three. What would you manipulate, me
 
 ---
 
-## 💬 Discussion
+## Discussion
 
 **Prompt:** Pick one of the three opening cases — *E. coli* chemotaxis, planarian wound closure, or *Physarum* network optimization. Using at least one primary source beyond this book, argue either that: (a) it satisfies William James' criterion of intelligence in a non-trivial sense, or (b) calling it intelligent is a useful functional description that ultimately breaks down when pressed on what "flexible means" actually requires. Engage directly with the molecular mechanism described in this chapter, not just the behavior.
 
@@ -367,11 +366,13 @@ Design a controlled test to distinguish all three. What would you manipulate, me
 
 ---
 
-## 🔬 Hands-On Lab: Cognitive Audit of Three Systems
+## Hands-On Lab: How Smart Is Your Spam Filter?
 
 **What you need:** A browser and 30 minutes. No code.
 
-Pick three systems you use regularly (spam filter, GPS app, AI assistant, chess engine — any three). For each: state the goal, describe what happens when the obvious path to that goal is blocked, and rate goal-flexibility 1–10 (1 = one means only, 10 = unlimited means). Then look up one technical source explaining how your highest-rated system actually works. Does knowing the mechanism change your rating?
+Start with your spam filter. It has a goal it pursues without you, it adapts when spammers change tactics, and you have never once thought of it as intelligent. Apply the James criterion to it: what is the future end it pursues, and what happens when the obvious means to that end stops working? Rate its goal-flexibility 1–10 (1 = one means only, 10 = unlimited means).
+
+Now do the same for two more systems you use regularly — GPS app, AI assistant, recommendation feed, chess engine, thermostat. Then look up one technical source explaining how your highest-rated system actually works. Does knowing the mechanism change your rating, or does it just move the goalpost?
 
 Finally: which of the five Rankin criteria in the table above could plausibly apply to your highest-rated system? Which definitely cannot?
 
@@ -379,7 +380,7 @@ Finally: which of the five Rankin criteria in the table above could plausibly ap
 
 ---
 
-## 🛠️ Build It: Run-and-Tumble Chemotaxis Simulator (Two Paths)
+## Build It: Run-and-Tumble Chemotaxis Simulator (Two Paths)
 
 **What you're building:** An interactive simulation of *E. coli* run-and-tumble chemotaxis that lets you disable the gradient-sensing mechanism and watch navigation fail.
 
@@ -446,7 +447,7 @@ No libraries. Pure HTML, CSS, and JavaScript in one file.
 
 ---
 
-## 🔍 Research Frontier: Does Bioelectric Memory Set the Planarian Head-Tail Axis? (2-page paper)
+## Research Frontier: Does Bioelectric Memory Set the Planarian Head-Tail Axis? (2-page paper)
 
 **The question:** Planarian flatworms forced to regenerate with a two-headed body plan continue doing so indefinitely — even after being returned to normal ionic conditions. The altered bioelectric state is maintained across repeated rounds of regeneration. What molecular mechanism stores this pattern state between wounding events, and is the inheritance through gap junctions, epigenetic modification, or something else?
 
@@ -462,7 +463,7 @@ No libraries. Pure HTML, CSS, and JavaScript in one file.
 
 ---
 
-## ⚙️ Applied Exercise: Cognitive System Audit (10 pts)
+## Applied Exercise: Audit One AI System You Actually Use (10 pts)
 
 **The task:** Select one AI system you interact with regularly. Conduct a structured cognitive audit in three sections.
 
@@ -478,7 +479,7 @@ No libraries. Pure HTML, CSS, and JavaScript in one file.
 
 ---
 
-## 📖 Glossary
+## Glossary
 
 **Adaptation (bacterial)** — Recalibration of *E. coli* chemoreceptor sensitivity via CheR (methyltransferase) and CheB (demethylase). Converts an on/off receptor switch into a derivative sensor.
 
@@ -514,7 +515,7 @@ No libraries. Pure HTML, CSS, and JavaScript in one file.
 
 ---
 
-## 🔑 The Takeaway
+## The Takeaway
 
 - Intelligence is not what brains invented. Brains made it faster, wider, and deeper.
 - *E. coli* measures temporal derivatives of chemical concentration using methylation as a write register with a four-second time constant.

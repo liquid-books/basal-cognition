@@ -208,7 +208,6 @@ Two systems, two degrees of individuality. The bee colony coordinates through di
 
 :::{list-table}
 :header-rows: 1
-:widths: 25 25 25 25
 
 * - System
   - Coupling medium
@@ -319,7 +318,6 @@ And just like the biology: cut the shared channel and one team becomes many.
 
 :::{list-table}
 :header-rows: 1
-:widths: 20 27 27 26
 
 * - Configuration
   - Biological analog
@@ -486,7 +484,6 @@ You will simulate a network of simple agents sharing state through a coupling ma
 
 :::{list-table}
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition

@@ -449,7 +449,6 @@ You will build a simple simulation of substrate independence. The same goal-seek
 
 :::{list-table}
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition

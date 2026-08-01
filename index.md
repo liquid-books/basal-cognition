@@ -72,7 +72,6 @@ The six ideas climb the same ladder: from molecule to machine, each level has a 
 
 :::{list-table}
 :header-rows: 1
-:widths: 6 25 69
 
 * - #
   - The Idea

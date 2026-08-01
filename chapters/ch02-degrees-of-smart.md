@@ -251,7 +251,6 @@ You have an AI agent that is giving bad answers. You need to fix it. Four option
 
 :::{list-table} The AI Intervention Ladder
 :header-rows: 1
-:widths: 15 30 30 25
 
 * - Rung
   - What you do
@@ -440,7 +439,6 @@ You will build a simple scoring tool that takes a system description and outputs
 
 :::{list-table} Chapter 2 Key Terms
 :header-rows: 1
-:widths: 25 75
 
 * - Term
   - Definition

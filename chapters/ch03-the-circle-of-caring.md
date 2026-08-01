@@ -115,7 +115,6 @@ Three test types do most of the work:
 
 :::{list-table} Three Tests, Three Axes
 :header-rows: 1
-:widths: 30 23 23 24
 
 * - Test
   - Bacterium
@@ -417,7 +416,6 @@ Build a tool that takes two sets of behavioral test results — one for a human 
 
 :::{list-table} Key Terms — Chapter 3
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition

@@ -411,7 +411,6 @@ You will build a simple two-level MCA simulation. A top-level "organism" agent h
 
 :::{list-table}
 :header-rows: 1
-:widths: 30 70
 
 * - Term
   - Definition
