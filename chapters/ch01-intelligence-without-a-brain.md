@@ -149,7 +149,7 @@ That picture has been revised, but not completely. The revision took neurons as 
 Neurocentric view versus the continuum view. Left: intelligence starts with neurons and is absent below that level. Right: intelligence is distributed across biological scales, with neurons amplifying something already running.
 :::
 
-:::{tab-set}
+::::{tab-set}
 
 :::{tab-item} The Neurocentric View
 **Intelligence requires neurons.**
@@ -167,7 +167,7 @@ A bacterium is a little smart. A flatworm is smarter. A dog is smarter still. A 
 This view predicts *Physarum*'s maze-solving — the mold is doing something genuinely cognitive, just slowly and with chemistry instead of electricity. It predicts single-cell habituation — a cell that tracks stimulus history is doing something learning-adjacent, even without a synapse. And it gives us a vocabulary for AI systems that behave competently without anything we recognize as a brain.
 :::
 
-:::
+::::
 
 The neurocentric view is not wrong everywhere. Neurons are the most powerful cognitive hardware biology has found. But "most powerful" is not the same as "only." Conflating them is the mistake.
 
@@ -211,7 +211,7 @@ The scale ladder: from molecules to software agents, each level is a cognitive a
 
 The framework structures six ideas. Each gets a chapter.
 
-:::{grid} 2
+::::{grid} 2
 
 :::{grid-item-card} Smart is a Dial
 Chapter 2 — How much intelligence does a system have? Where does it sit on the spectrum from rock to human? And what does that tell you about which lever to pull?
@@ -237,7 +237,7 @@ Chapter 6 — What makes a pile of separate cells act like one creature? They sh
 Chapter 7 — Skin cells from a frog, left alone, self-assemble into a swimming creature. Scientists repeated it with human cells. The rules apply to robots. And software.
 :::
 
-:::
+::::
 
 ---
 

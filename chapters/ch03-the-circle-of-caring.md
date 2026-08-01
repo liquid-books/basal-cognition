@@ -168,7 +168,7 @@ Run the full five-step treatment on this idea — it is the chapter's centerpiec
 
 **Step 2 — The bridge.** Cells do the same thing, for a specific biological reason. Normal cells share electrical signals with neighbors through gap junctions — tiny protein channels that keep cell voltage coordinated across the tissue. When those channels are disrupted, a cell loses its connection to the collective goal. Without the signal, it defaults to the most ancient program it carries: grow.
 
-:::{grid} 2
+::::{grid} 2
 :::{grid-item-card} 🟢 Normal Liver Cell
 **Light cone:** the whole liver
 
@@ -185,7 +185,7 @@ Run the full five-step treatment on this idea — it is the chapter's centerpiec
 - Optimizes for local growth, no pattern goal
 - Draws resources away from the collective
 :::
-:::
+::::
 
 :::{figure} ../images/ch03-bioelectric-decoupling.png
 :label: fig-ch03-bioelectric-decoupling
@@ -287,7 +287,7 @@ An AI agent's effective light cone has three rough layers. Most failures happen 
 
 In 2026 agentic systems, the light cone problem shows up on three distinct layers:
 
-:::{tab-set}
+::::{tab-set}
 :::{tab-item} Spatial Reach
 **Context window** sets the immediate spatial boundary. Anything outside the current context window is, for practical purposes, invisible. An agent with 128,000 tokens of code context can see more of the codebase than one with 4,000 — but both are still looking at a slice. Designing for spatial reach means: give the agent what it needs to see, not just what it asked for.
 :::
@@ -297,7 +297,7 @@ In 2026 agentic systems, the light cone problem shows up on three distinct layer
 :::{tab-item} Collective Reach
 **Multi-agent visibility** is the hardest layer. When one agent's output becomes another agent's input, a locally correct decision at step 3 can wreck step 7. Designing for collective reach means: agents need visibility into the larger workflow, not just their own task. The channel to the collective must stay open.
 :::
-:::
+::::
 
 :::{warning}
 "Just give the agent a longer context window" is not the answer. A bigger context window expands *available* spatial reach. It does not ensure the agent *uses* that reach. An agent that scores poorly on delayed-gratification tests inside a large context window still has a small effective light cone. Scope must be built into the reward signal and the architecture — not just the input length.

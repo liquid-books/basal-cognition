@@ -76,7 +76,7 @@ The useful move is not memorizing which things go where. It's developing the ref
 
 The continuum is continuous. But four rough tiers are useful for thinking:
 
-:::{tab-set}
+::::{tab-set}
 
 :::{tab-item} Tier 1 — Mechanisms
 **Example:** A clock. A lever. A thermostat.
@@ -118,7 +118,7 @@ What makes them persuadable: they have a model of the future, a model of other m
 **What doesn't work well:** Over-specification. If you tell a persuadable system *exactly* what to do at every step, you have converted them into a Tier 1 mechanism — and you are now doing all the problem-solving yourself.
 :::
 
-:::
+::::
 
 :::{figure} ../images/ch02-four-tiers.png
 :label: fig-ch02-four-tiers

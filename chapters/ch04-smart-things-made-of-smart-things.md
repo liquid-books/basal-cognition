@@ -279,7 +279,7 @@ An under-competent subordinate has a diagnostic signature. It loops. It produces
 A practical rubric for MCA-informed agent design. The hardest column is the middle one — the constraints. Too few and you lose control. Too many and you have written a procedure with extra steps.
 :::
 
-:::{tab-set}
+::::{tab-set}
 
 :::{tab-item} Biology
 **What biology specifies:** target shape, boundary conditions, success signal (gap closed, osmolarity balanced, temperature stable)
@@ -301,7 +301,7 @@ A practical rubric for MCA-informed agent design. The hardest column is the midd
 **What happens when over-specified:** agent fails when any intermediate step meets an unexpected condition; cannot adapt; brittle against environment changes
 :::
 
-:::
+::::
 
 ---
 
