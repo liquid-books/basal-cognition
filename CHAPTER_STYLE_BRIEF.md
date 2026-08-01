@@ -419,6 +419,19 @@ Rules that actually work:
 - **Name any word the model tends to mangle and forbid it.** A cell icon labeled
   "Cell" came back as "Gell". If the icon is self-evident, say `Do not write the
   word Cell anywhere` and let the shape do the work.
+- **Never write an image constraint in CAPITAL LETTERS.** The landing page graph came
+  back with the literal phrase "EXACTLY ONCE" printed as a subtitle beneath all four
+  of its labels — the model read the capitalized instruction as label text. Phrase
+  constraints as plain lowercase prose: `Each word appears one single time.`
+- **Avoid concentric rings, mirrored, or radially symmetric layouts for labeled
+  diagrams.** Symmetry invites the model to mirror the labels too; a ring diagram
+  printed "Machine" and "Swarm" at both top and bottom. Prefer stacked bars, single
+  columns, or left-to-right sequences — layouts that are structurally incapable of
+  duplicating a label.
+- **Make the hero image wordless.** The single most important image in a chapter or
+  on the landing page should carry its idea through composition alone. Zero text means
+  zero garble risk on the one image people actually look at. Say
+  `This image is entirely wordless.`
 - **Never render a table, matrix, or flowchart with branch labels as an image.**
   If it has rows and columns, it is a `list-table`. If it has decision branches, it
   is a `mermaid` block. Both stay searchable, screen-readable, and correct. Two ch08

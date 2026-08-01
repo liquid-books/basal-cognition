@@ -2,10 +2,11 @@
 title: "Basal Cognition"
 subtitle: "How Intelligence Works Without a Brain — and What That Means for Machines"
 description: |
-  Cells navigate. Wounds close in the right shape. Slime mold solves mazes. Nobody
-  taught them how. Basal Cognition is a plain-language field guide to intelligence
-  that runs without a brain — and a working blueprint for testing whether our AI
-  systems have it too.
+  Cut a flatworm into 279 pieces and you get 279 flatworms. Frog skin cells, left alone,
+  build a swimming creature that has never existed in evolutionary history. Slime mold
+  reproduces the Tokyo rail network — a system engineers spent decades designing. No
+  brains. No nervous systems. No instruction. This book is the field guide to that
+  strangeness, and a blueprint for testing whether our AI systems have the same property.
 ---
 
 :::{figure} images/cover.png
@@ -25,154 +26,181 @@ description: |
 
 ---
 
-## Things without brains still act smart
+## The thing that shouldn't be possible
 
-A bacterium swims toward food. A cut on your arm closes up in the right shape — not just closed, the *right shape*. Mold in a dish finds the shortest path through a maze. Nobody told them how to do any of that. They just do it.
+Cut a planarian flatworm into 279 pieces. You do not get a pile of dead tissue. You get 279 flatworms — each one a complete animal, each one rebuilt from whatever fragment it started with. They move. They hunt. They know what shape they are supposed to be. And when each one is done, it **stops**.
 
-Basal cognition is the study of that.
+That stopping is the thing nobody can explain.
 
-The big idea is short: **being smart isn't something brains invented. Brains just made it bigger.** Goal-directed, error-correcting, flexibly intelligent behavior was running on this planet for billions of years before the first neuron existed. Neurons made it faster and wider. They did not make it *possible*.
+:::{figure} images/landing-hero-anomaly.png
+:label: fig-landing-hero
+:alt: A planarian flatworm being cut and each fragment regenerating into a complete worm, with a final panel showing each worm intact and stopped.
+:width: 100%
+:align: center
 
-That reframing is interesting biology. But it is something more urgent than interesting right now — because we have started building systems whose competence we did not specify in detail, and we do not have good vocabulary for them. We call them agents. We ask whether they are "really" intelligent, which is the wrong question, and we skip the question biology already knows how to answer: *how far can this thing care, and how do I change its behavior?*
+Cut it into 279 pieces. Get 279 worms. Each one stops when it's done — and the stopping is harder to explain than the growing.
+:::
 
-This book is the answer to that question, written in plain language, with a real experiment at the end.
+**Brains did not invent intelligence. They scaled it.**
+
+In 2020, Michael Levin and Josh Bongard scraped cells from frog embryos — plain skin cells, the kind that would have become the outside of a tadpole — and let them sit in a dish. With no further instruction, those cells assembled into small swimming creatures that have never existed in evolutionary history. In 2023, Gumuskaya and colleagues did it again with human cells from the airway. The resulting organisms cleared dead tissue. They moved with what can only be called purpose.
+
+These things had no brains. No neurons. No evolutionary precedent. They just did it.
+
+**Intelligence is not what brains produce. It is what matter does when it organizes.**
+
+Here is the objection that comes first. "These are just reflexes. Chemistry following chemistry. You're projecting agency onto physics." It is a fair objection, and this book earns its answer. The short version: reflexes are not self-correcting. Reflexes do not recover their target when you block the usual route. Flatworm fragments do. Slime mold does. In 2000, Toshiyuki Nakagaki showed *Physarum polycephalum* — a single-celled organism with no brain — solving a spatial maze. In 2010, Atsushi Tero showed the same mold reproducing the Tokyo rail network, the one that took Japanese engineers decades to optimize, in 26 hours.
+
+The right question is not *is this intelligence?* The right question is *how much intelligence, of what kind, and what levers can I pull to change it?*
+
+That is what this book is about.
 
 ---
 
 ## The six ideas
 
-The framework running underneath this book is **TAME** — Michael Levin's Technological Approach to Mind Everywhere. Stripped of jargon, it comes down to six ideas, and each one gets a chapter.
+The framework underneath this book is **TAME** — Michael Levin's Technological Approach to Mind Everywhere. Six ideas. One chapter each.
+
+:::{figure} images/landing-six-ideas.png
+:label: fig-six-ideas
+:alt: A vertical scale from single molecule at the bottom through cell, tissue, organ, organism, and network at the top, with each level labeled with the corresponding TAME concept.
+:width: 100%
+:align: center
+
+The six ideas climb the same ladder: from molecule to machine, each level has a version of the same cognitive property. The question is how much, and how wide.
+:::
 
 :::{list-table}
 :header-rows: 1
-:widths: 8 27 65
+:widths: 6 25 69
 
 * - #
   - The Idea
-  - In Plain Language
+  - What It Actually Means (and Why It's Surprising)
 * - 1
   - **Smartness comes in degrees**
-  - A clock isn't smart. A dog is somewhat smart. You are very smart. The useful part: *how* smart something is tells you which lever to pull. You fix a clock with tools. You train a dog. You talk to a person.
+  - A clock isn't smart. A slime mold is a little smart. You are very smart. The surprise: this is measurable, not metaphorical. Where a thing falls on the scale tells you which lever to pull — tools for a clock, rewards for a dog, arguments for a person. Chapter 2 shows you how to read the dial.
 * - 2
-  - **How far ahead can it care?**
-  - A germ cares about right here, right now. A cell in an embryo cares about building a whole hand over weeks. You can care about your grandchildren. That range is the main thing to measure — and cancer is what happens when it shrinks.
+  - **The cognitive light cone**
+  - Some things care about right here, right now. Others care about building a hand over six weeks, or a city over a lifetime. That caring radius is the main thing to measure. Cancer is what happens when a cell's radius collapses to zero — it stops caring about the body it lives in. Chapter 3 maps the cone and explains why shrinking it is always the disease.
 * - 3
   - **Smart things are made of smart things**
-  - Your cells are a little smart. They make tissue that's smarter. That makes organs, then you. Each level says *get this done* and lets the level below figure out how.
+  - Your immune cells solve problems you never consciously pose. They make tissues that solve harder problems. Those make organs, then you. Each layer says *achieve this outcome* and lets the layer below invent how. Chapter 4 shows the newt that regrows the same lens from the wrong tissue every time — because the *goal* is wired in, not the route.
 * - 4
-  - **The body knows its own shape**
-  - Like a thermostat, but the setting is your anatomy. Cut a flatworm in half and each half rebuilds a whole worm — then **stops**. Something in there knows what "done" looks like.
+  - **The body has a setpoint for its own shape**
+  - Not a blueprint. A *target*. Cut a flatworm in half, get two wholes. Force a salamander's body to develop a sixth leg, and its nervous system will reroute to control it. Something in there knows what *done* looks like and keeps correcting toward it. Chapter 5 asks where that target is stored — and how to rewrite it.
 * - 5
-  - **Glue**
-  - What makes a pile of separate cells act like one creature? They share signals with their neighbors. Share enough and "me and me and me" turns into "us." Cut the sharing and one worm becomes two.
+  - **Sharing signals is what makes a "we"**
+  - A pile of cells is not an organism. An organism is a pile of cells that has agreed on a collective goal — through chemical signals, electrical pulses, and shared membrane channels called gap junctions. Cut those channels and one worm becomes two. Chapter 6 is the physics of solidarity.
 * - 6
-  - **It doesn't matter what it's made of**
-  - Skin cells from a frog embryo, left alone, build themselves into a small swimming creature that never existed before. Scientists did it again with human cells. The same rules apply to robots and software.
+  - **The rules don't care what it's made of**
+  - Frog skin. Human airway mucus. Soft robots. Software agents. The same principles that make a cell collective into an organism appear to apply regardless of substrate. That is the most liberating claim in the book — and the most testable. Chapter 7 makes the case.
 :::
 
 ---
 
-## And then the experiment
+## And then the experiment nobody has run
 
-There is a strict test for the simplest kind of learning there is: **getting used to something.** You stop hearing the refrigerator hum. That's it. That's the learning.
+There is a strict, hundred-year-old test for the simplest kind of learning: **habituation.** You stop flinching at the sound your refrigerator makes. That's the whole thing.
 
-The test has real rules that separate genuine learning from just getting tired. Two of them do most of the work:
+But the test has teeth. Two criteria do most of the work, and both were formalized by Rankin and colleagues in 2009:
 
-- **Rest it.** If you take the stimulus away for a while, the reaction should come back. Fatigue doesn't do that.
-- **Surprise it.** A sudden novel jolt should snap the reaction back instantly. A depleted system can't do that.
+- **Spontaneous recovery.** Rest the organism from the stimulus, and the reaction comes back. Muscle fatigue can't do this. Genuine learning does.
+- **Dishabituation.** Hit it with something novel and surprising, and the old reaction snaps back immediately. A depleted motor system stays depleted. A learning system doesn't.
 
-Slime mold passes this test. Single cells pass this test.
+*Stentor roeselii* — a single-celled organism, one cell, no neurons — passes this test (Jennings, 1906; Dexter, Prabakaran & Gunawardena, 2019). *Physarum polycephalum* passes this test. Earthworms pass this test.
 
-**Nobody has run it on AI agents.**
+**Nobody has ever run it on an AI agent.**
 
-So: give an agent the same alert over and over. Does it start ignoring it? Rest it — does it notice again? Hit it with something surprising — does it wake up?
+:::{figure} images/landing-the-experiment.png
+:label: fig-experiment
+:alt: A response-magnitude curve that starts high, declines across repeated identical stimuli, recovers after a rest period, and spikes again after a novel stimulus is introduced.
+:width: 90%
+:align: center
 
-Here is why anyone should care. If your AI assistant stops flagging the warning it has seen forty times, that is a real failure mode in a real production system, and nobody is measuring it. Biology already knows the fix — space things out, mix things up. Cost is basically API calls and time. A good student could run it in a semester.
+The shape of real habituation: response declines with repetition, recovers with rest, and spikes back with novelty. Fatigue produces the first decline but not the recovery. The recovery is the test.
+:::
 
-Chapter 8 hands you the full protocol.
+**The test is cheap. The stakes are not.**
+
+Give an AI agent the same alert over and over. Does its response magnitude decline? Rest it — does it recover? Fire something novel — does it dishabituate? This is measurable. It costs API calls and time. A good student could run it in a semester with off-the-shelf tooling.
+
+Here is why it matters beyond academic curiosity. If your production assistant stops flagging the warning it has seen forty times, that is a real failure mode. It is happening right now in deployed systems, unmonitored. Biology already knows what causes it and how to prevent it: space the stimuli, vary the inputs, build in novelty. The fix exists. We just haven't applied it because nobody has established that the problem exists.
+
+**The most important experiment in AI safety right now may be a habituation protocol.**
+
+Chapter 8 gives you the full protocol — controls, analysis plan, and a working Colab notebook. It is designed to be run, not read.
 
 ---
 
 ## Who this is for
 
-- **Engineers and architects** building agentic systems who need better models than "the AI is smart" or "the AI is dumb"
-- **Technical leaders** deciding how much autonomy to grant a system, and at what level to intervene when it misbehaves
-- **Students and researchers** looking for a genuinely open, genuinely cheap experiment worth running
-- **Anyone curious** about how a flatworm knows when to stop growing
+Upper-level undergraduates, graduate students, and serious general readers. A sharp 17-year-old will follow every page. No biology background required. No physics. No math beyond "bigger" and "smaller."
 
-No biology background required. No physics background required. If you can picture a thermostat, you have the prerequisite.
+Do not come here for career framing or ROI. Come because you want to understand how matter becomes purposeful, and whether the thing you built last month has any of that property.
+
+- **Engineers building agentic systems** who need better models than "it's smart" or "it's dumb"
+- **Researchers** looking for a genuinely open, genuinely cheap experiment worth running
+- **Students** who want the real mechanism, not the pop-science summary
+- **Anyone** who has watched a wound close and wondered what was deciding when to stop
 
 ---
 
 ## What you'll walk away with
 
-1. A **vocabulary** for goal-directedness that doesn't require deciding whether something is conscious
-2. The **persuadability spectrum** — a practical method for choosing the right intervention level on any system
-3. The **cognitive light cone** — a way to measure and compare what a system is capable of caring about
-4. **Multi-scale competency architecture** as a design pattern for agent systems
-5. A **runnable research protocol** with controls, analysis plan, and a Colab notebook
+1. A **vocabulary for goal-directedness** that doesn't require deciding whether something is conscious
+2. The **persuadability spectrum** — how to choose the right intervention level for any system
+3. The **cognitive light cone** — a way to measure what a system is capable of caring about
+4. **Multi-scale competency architecture** as a working design pattern for agent systems
+5. A **runnable habituation protocol** with controls, analysis plan, and Colab notebook
 
 ---
 
-## Available Chapters
+## Eight Chapters
 
 ::::{grid} 2
 
 :::{grid-item-card} Chapter 1: Intelligence Without a Brain
 :link: ./chapters/ch01-intelligence-without-a-brain.md
-The things that act smart with no head to do it with — and why the framework lands now.
+The things that act smart with no head to do it with — and why the framework lands now, not twenty years ago.
 :::
 
 :::{grid-item-card} Chapter 2: Degrees of Smart
 :link: ./chapters/ch02-degrees-of-smart.md
-A clock, a dog, a person. The persuadability spectrum and how to pick the right lever.
+A clock, a dog, a person. The persuadability spectrum — how to read the dial and pick the right lever.
 :::
 
 :::{grid-item-card} Chapter 3: The Circle of Caring
 :link: ./chapters/ch03-the-circle-of-caring.md
-The cognitive light cone — how far ahead and how wide a thing can care. And why cancer is a light cone that collapsed.
+The cognitive light cone — how far ahead and how wide a thing can care. Cancer is a light cone that collapsed.
 :::
 
 :::{grid-item-card} Chapter 4: Smart Things Made of Smart Things
 :link: ./chapters/ch04-smart-things-made-of-smart-things.md
-The newt that builds the same tube with one giant cell. Multi-scale competency architecture.
+The newt that builds the same lens from the wrong tissue every time. Multi-scale competency architecture.
 :::
 
 :::{grid-item-card} Chapter 5: The Body Knows Its Own Shape
 :link: ./chapters/ch05-the-body-knows-its-own-shape.md
-*In progress — chapter plan only.*
-
 A thermostat whose setting is your anatomy. The setpoint, where it lives, and how to rewrite it.
 :::
 
 :::{grid-item-card} Chapter 6: Glue
 :link: ./chapters/ch06-glue.md
-*In progress — chapter plan only.*
-
 How a pile of cells becomes an *us* — and what happens to an agent team when you cut the channel.
 :::
 
 :::{grid-item-card} Chapter 7: It Doesn't Matter What It's Made Of
 :link: ./chapters/ch07-it-doesnt-matter-what-its-made-of.md
-*In progress — chapter plan only.*
-
 Xenobots, anthrobots, and substrate independence. The most liberating and most unsettling chapter.
 :::
 
 :::{grid-item-card} Chapter 8: Does Your AI Get Bored?
 :link: ./chapters/ch08-does-your-ai-get-bored.md
-*In progress — chapter plan only.*
-
 The habituation experiment nobody has run yet. Full protocol, controls, and analysis plan.
 :::
 
 ::::
-
----
-
-:::{note} Reading Status
-**Chapters 1–4 are complete and ready to read.** Chapters 5–8 are outlined and in progress — their pages currently show the chapter plan rather than finished text.
-:::
 
 ---
 
