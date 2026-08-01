@@ -43,32 +43,31 @@ This book is the answer to that question, written in plain language, with a real
 
 The framework running underneath this book is **TAME** — Michael Levin's Technological Approach to Mind Everywhere. Stripped of jargon, it comes down to six ideas, and each one gets a chapter.
 
-:::{grid} 2
+:::{list-table}
+:header-rows: 1
+:widths: 8 27 65
 
-:::{grid-item-card} 1 · Smartness comes in degrees
-A clock isn't smart. A dog is somewhat smart. You are very smart. The useful part: *how* smart something is tells you which lever to pull. You fix a clock with tools. You train a dog. You talk to a person.
-:::
-
-:::{grid-item-card} 2 · How far ahead can it care?
-A germ cares about right here, right now. A cell in an embryo cares about building a whole hand over weeks. You can care about your grandchildren. That range is the main thing to measure — and cancer is what happens when it shrinks.
-:::
-
-:::{grid-item-card} 3 · Smart things are made of smart things
-Your cells are a little smart. They make tissue that's smarter. That makes organs, then you. Each level says *get this done* and lets the level below figure out how.
-:::
-
-:::{grid-item-card} 4 · The body knows its own shape
-Like a thermostat, but the setting is your anatomy. Cut a flatworm in half and each half rebuilds a whole worm — then **stops**. Something in there knows what "done" looks like.
-:::
-
-:::{grid-item-card} 5 · Glue
-What makes a pile of separate cells act like one creature? They share signals with their neighbors. Share enough and "me and me and me" turns into "us." Cut the sharing and one worm becomes two.
-:::
-
-:::{grid-item-card} 6 · It doesn't matter what it's made of
-Skin cells from a frog embryo, left alone, build themselves into a small swimming creature that never existed before. Scientists did it again with human cells. The same rules apply to robots and software.
-:::
-
+* - #
+  - The Idea
+  - In Plain Language
+* - 1
+  - **Smartness comes in degrees**
+  - A clock isn't smart. A dog is somewhat smart. You are very smart. The useful part: *how* smart something is tells you which lever to pull. You fix a clock with tools. You train a dog. You talk to a person.
+* - 2
+  - **How far ahead can it care?**
+  - A germ cares about right here, right now. A cell in an embryo cares about building a whole hand over weeks. You can care about your grandchildren. That range is the main thing to measure — and cancer is what happens when it shrinks.
+* - 3
+  - **Smart things are made of smart things**
+  - Your cells are a little smart. They make tissue that's smarter. That makes organs, then you. Each level says *get this done* and lets the level below figure out how.
+* - 4
+  - **The body knows its own shape**
+  - Like a thermostat, but the setting is your anatomy. Cut a flatworm in half and each half rebuilds a whole worm — then **stops**. Something in there knows what "done" looks like.
+* - 5
+  - **Glue**
+  - What makes a pile of separate cells act like one creature? They share signals with their neighbors. Share enough and "me and me and me" turns into "us." Cut the sharing and one worm becomes two.
+* - 6
+  - **It doesn't matter what it's made of**
+  - Skin cells from a frog embryo, left alone, build themselves into a small swimming creature that never existed before. Scientists did it again with human cells. The same rules apply to robots and software.
 :::
 
 ---
