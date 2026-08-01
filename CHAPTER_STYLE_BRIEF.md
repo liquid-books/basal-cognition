@@ -259,6 +259,10 @@ Rules that actually work:
 - **Ten labels maximum per image.** Fewer is better.
 - **Whitelist them.** End every prompt with the exact permitted strings:
   `The ONLY text in the image is: "Run", "Tumble", "Gradient". No other text, labels, captions, or writing anywhere.`
+- **Say each label appears exactly once.** Whitelisting the strings is not enough —
+  the model will happily print the same word twice, once as a heading and again as
+  an arrow annotation. Add: `Each of these words appears EXACTLY ONCE in the entire
+  image and never twice.` and `Do not put a text label on any arrow.`
 - **Never ask for a paragraph inside an image.** If the concept needs sentences,
   it is not a figure — build it as a MyST `list-table`, `grid`, or code block instead.
 - **Never ask the model to render code, logs, prompts, or config files.** It cannot.
