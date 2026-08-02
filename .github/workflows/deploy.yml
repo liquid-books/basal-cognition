@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
 env:
-  BASE_URL: /
+  BASE_URL: ""
 
 permissions:
   contents: read
