@@ -59,7 +59,7 @@ site:
   title: "Basal Cognition"
   options:
     logo_text: "Basal Cognition"
-    logo_url: "/basal-cognition/"
+    logo_url: "/"
     favicon: images/cover.png
   parts:
     primary_sidebar_footer: primary-sidebar-footer.md
