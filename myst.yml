@@ -54,6 +54,8 @@ project:
       file: chapters/ch07-it-doesnt-matter-what-its-made-of.md
     - title: "Chapter 8: Does Your AI Get Bored?"
       file: chapters/ch08-does-your-ai-get-bored.md
+    - title: "Chapter 9: Six Ingredients"
+      file: chapters/ch09-six-ingredients.md
 
 site:
   title: "Basal Cognition"

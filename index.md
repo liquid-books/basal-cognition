@@ -199,6 +199,11 @@ Xenobots, anthrobots, and substrate independence. The most liberating and most u
 The habituation experiment nobody has run yet. Full protocol, controls, and analysis plan.
 :::
 
+:::{grid-item-card} Chapter 9: Six Ingredients
+:link: ./chapters/ch09-six-ingredients.md
+A precise map of what basal cognition actually requires — and where AI stands on it. With a four-way scorecard that reveals exactly why AI is simultaneously brilliant and structurally hollow.
+:::
+
 ::::
 
 ---
