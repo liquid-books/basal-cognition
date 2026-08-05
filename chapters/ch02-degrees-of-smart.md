@@ -76,49 +76,21 @@ The useful move is not memorizing which things go where. It's developing the ref
 
 The continuum is continuous. But four rough tiers are useful for thinking:
 
-::::{tab-set}
+Picture the same problem handed to four different kinds of systems: a factory line keeps jamming at the same point, and something has to fix it.
 
-:::{tab-item} Tier 1 — Mechanisms
-**Example:** A clock. A lever. A thermostat.
+**Tier 1 — Mechanisms.** You install a sensor that detects the jam and trips a physical brake. You have not communicated with anything. You have rearranged matter. The system has no opinion about whether this is a good idea. If you install the sensor backwards, it jams at the wrong moment and nobody inside the machine notices, because there is no inside. To change the outcome, you physically change the structure. That is the only lever available.
 
-What makes them mechanisms: they have no internal model of a goal. They execute a physical rule. You change the outcome by changing the physical structure.
+**Tier 2 — Reactive systems.** You introduce a colony of bacteria whose chemical environment changes when the line jams. They respond by secreting a compound that lubricates the joint. You didn't program the response — you changed the environment and they handled the rest. This is a qualitatively different kind of intervention. You are working *with* the system's own logic rather than replacing it. But you can't negotiate with bacteria. If you want a different response, you change the environment again. There is no learning, no memory, no training.
 
-**Intervention:** Rewire. Replace the part. Move the gear.
+**Tier 3 — Trainable systems.** You assign a line worker who has been on this floor for three years. She knows which jams are noise and which are real. She has been rewarded for fast, accurate calls. Over months, those rewards have reshaped her judgment in ways neither you nor she can fully articulate. You can shape her behavior through repeated experience — but you cannot hand her a manual and expect it to work. The manual is not where her skill lives. Her skill lives in pattern recognition built from repetition. Change the rewards and you change the worker. Give her a speech and nothing happens.
 
-**What doesn't work:** Asking. Rewarding. Signaling. None of it registers. The clock doesn't hear you.
-:::
+**Tier 4 — Persuadable systems.** You bring in the floor manager and explain the problem: the line jams every Tuesday morning, probably due to humidity from the weekend shutdown, and you need a solution by Friday because the client is coming. She nods. She will figure it out. She might talk to maintenance, she might consult the equipment manual, she might call a colleague at another plant, she might realize Tuesday's humidity isn't the real issue at all. You gave her a *goal*. She will find the *means*. That is the whole difference.
 
-:::{tab-item} Tier 2 — Reactive Systems
-**Example:** A bacterium. A simple immune cell. A basic reflex arc.
+Now do the obvious thing: give each system the wrong intervention.
 
-What makes them reactive: they have a small sensorimotor loop. Input → internal state change → output. They don't plan. But they do *compute*.
+Try to *persuade* the Tier 1 sensor. Nothing. Try to *train* the bacteria. Nothing. Try to *reprogram* the experienced worker without her input. She nods, ignores you, and keeps doing what works. Try to give the floor manager step-by-step instructions for every hour of her day. She starts executing instead of thinking. Her judgment goes offline. You have just demoted a Tier 4 system to a Tier 1 gear — and she resents you for it.
 
-**Intervention:** Change the environment, not the machinery. Alter the chemical gradient. Introduce a new signal. The system does the rest.
-
-**What doesn't work:** Training. Long sequences of paired stimuli don't stick here. There's no associative memory. You can't negotiate with a neutrophil.
-:::
-
-:::{tab-item} Tier 3 — Trainable Systems
-**Example:** A mouse. A dog. A crow. Maybe an octopus.
-
-What makes them trainable: they have associative memory. They link stimuli to outcomes over time. They can generalize. They can be surprised.
-
-**Intervention:** Repeated signals with feedback. Timing matters. Consistency matters. You are, slowly, reshaping the internal model.
-
-**What doesn't work:** One-off instructions. Abstract argument. "Look, statistically your behavior is suboptimal" does nothing to a dog.
-:::
-
-:::{tab-item} Tier 4 — Persuadable Systems
-**Example:** A human adult. Possibly some great apes. Possibly some of the more capable AI systems.
-
-What makes them persuadable: they have a model of the future, a model of other minds, and the ability to update both based on evidence and argument.
-
-**Intervention:** Communication. Make the case. Give a goal, not a script.
-
-**What doesn't work well:** Over-specification. If you tell a persuadable system *exactly* what to do at every step, you have converted them into a Tier 1 mechanism — and you are now doing all the problem-solving yourself.
-:::
-
-::::
+The persuadability spectrum is not just a classification. It is a warning: *pick the wrong tool and you actively remove the intelligence you were trying to use.*
 
 :::{figure} ../images/ch02-four-tiers.png
 :label: fig-ch02-four-tiers
@@ -377,6 +349,14 @@ A cell that builds the wrong shape is signaling a wrong goal state — and the r
 An AI agent that gives bad answers might need a better prompt, a new tool, or a clearer goal — not a fine-tune, not a model swap, not three months of data curation.
 
 The skill is the diagnosis. Develop it first. Everything else follows.
+
+Here is the version of this that should bother you.
+
+The wrong intervention doesn't just fail. It *demotes* the system. Give a capable person step-by-step instructions for something they already know how to do, and you haven't managed them — you've converted a Tier 4 mind into a Tier 1 gear. The person stops problem-solving and starts executing. Their judgment goes offline. Their creativity goes offline. And they resent you for it, which is the system telling you that you have chosen the wrong tool.
+
+Every micromanager in history has made this mistake. Every over-specified AI prompt makes the same mistake. The intervention that bypasses a system's own problem-solving doesn't just miss — it actively removes the intelligence you were trying to use.
+
+The right question before any intervention: *am I about to talk to this system, or am I about to replace it?*
 
 Here is why this matters for everything that follows. The experiments in this book — the ones that ask whether AI systems habituate, whether a model changes from experience, whether a synthetic organism can generate its own goals — are all, underneath, asking where something sits on this spectrum. A system that only executes (Tier 1) cannot habituate. A system that only reacts (Tier 2) cannot learn. A system that trains (Tier 3) changes — but only within the goals it was given. The question the later chapters are trying to answer is whether any of our built systems have crossed into Tier 4: not just executing goals we specified, but representing goals flexibly enough that experience reshapes them. The spectrum is not a taxonomy. It is a diagnostic. And the chapters ahead are running the test.
 

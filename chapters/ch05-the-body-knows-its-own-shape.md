@@ -74,6 +74,16 @@ The question is not how the worm *grows*. The question is how the worm knows whe
 
 ## Homeostasis, Expanded
 
+Your body is doing this right now.
+
+Not occasionally. Not when you are sick or injured. Continuously, every second, while you read this sentence, it is running thousands of comparison loops in parallel — checking current state against stored target, generating error signals, issuing corrections.
+
+The obvious ones: temperature, blood sugar, blood pressure. You have heard of these.
+
+The one nobody mentions: shape. The number of fingers on your hand. The position of your eyes relative to your ears. The length of your left arm compared to your right. These are not built once and left alone. They are actively maintained. Defended. Every day.
+
+Same mechanism. Same logic. Vastly different dimension.
+
 You have heard of homeostasis. Your body keeps its temperature near 37°C. It keeps blood glucose in a narrow band. It keeps blood pH between 7.35 and 7.45. Drift outside those ranges and cells start to fail.
 
 The mechanism is always the same: compare the current state to a setpoint, act to close the gap, stop when the error goes to zero. Negative feedback. The thermostat model.
@@ -158,6 +168,18 @@ Cut it again. Two heads.
 
 The genome is unchanged. The edited setpoint persists through regeneration after regeneration. Something other than the DNA is storing the target.
 
+That experiment has a detail that deserves its own moment.
+
+After they washed out the drug — after the chemistry was gone, after every molecule of the original intervention had cleared the system — they cut the worm again.
+
+Two heads.
+
+The worm had never been told to be two-headed. Its genome had never changed. But something in the tissue remembered. The electrical pattern that the drug had established had been passed to new cells, which passed it to their daughters, none of whom had experienced the original drug.
+
+A memory, inherited without DNA. Passed down through pure electrical topology.
+
+We do not have a complete account of how this is possible. We have the experiment. And the experiment is unambiguous.
+
 :::{figure} ../images/ch05-two-headed-planarian.png
 :label: fig-ch05-two-headed-planarian
 :alt: Diagram showing a normal planarian, then a two-headed planarian created by bioelectric intervention, then successive cuts and regenerations all producing two-headed worms. A label reads DNA Unchanged at each step.
@@ -222,6 +244,18 @@ Gap junctions form a tissue-wide communication network. Ions flow through them d
 If the setpoint is stored in the bioelectric pattern, you can change the setpoint by changing the pattern. Not by editing genes. By changing the electrical state.
 
 The two-headed planarian is the clearest example. But Levin's lab has produced stranger ones.
+
+Here is the experiment that should stop you cold.
+
+Levin's lab used small-molecule drugs — chemicals that alter ion channel behavior, nothing more — to change the bioelectric map of a developing frog tadpole. No gene editing. No surgery. Just voltage.
+
+The tadpole grew an eye on its gut.
+
+A fully-formed, functional eye. In a place where no eye has grown in the four-hundred-million-year history of vertebrates. The eye had a lens. It had a retina. It connected to the nervous system and responded to light.
+
+They did not touch a single gene. They changed the voltage map, and the genome — already containing every instruction needed to build an eye — expressed those instructions in a new place, because the positional signal said *here.*
+
+The genome does not decide where to build eyes. The bioelectric map does. The genome is the library. The map is the reading list.
 
 Tadpoles of *Xenopus laevis* normally grow eyes on the face. Researchers transplanted eye tissue to the gut or tail and manipulated the bioelectric environment there. Eyes formed. The animals could perceive light through their belly or tail.
 

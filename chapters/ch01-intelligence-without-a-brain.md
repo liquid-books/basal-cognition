@@ -32,6 +32,8 @@ The genome is the same book in every fragment.
 
 So the genome cannot be the thing that is reading it.
 
+Read that again. Every fragment has identical DNA. Yet every fragment builds something different. The DNA cannot be the thing deciding what to build — because the DNA is the same and the decisions are different.
+
 Every cell has the blueprint. Something else has the plan.
 
 Morgan spent his career proving that heredity lives in chromosomes. He was right. That is exactly why the flatworm was unsolvable for him. He was holding the parts list and looking for the foreman.
@@ -174,13 +176,25 @@ Voltage patterns do all three. Same genome in every piece. A distinct electrical
 
 A tail fragment's electrical state is not the state of a whole worm, and that mismatch is the instruction. Resolve it and growth stops.
 
-The evidence at this point becomes almost surreal. Levin's group used ion-channel drugs to make a planarian regenerate with two heads. Then they washed out the drug completely — no more chemistry, clean animal, normal genome. They cut the two-headed worm again.
+The evidence at this point becomes almost surreal. Stop and sit with what Levin's group actually did.
+
+They used ion-channel drugs — chemicals that alter the voltage landscape of a planarian — to make it regenerate with two heads instead of one. The worm grew two heads. Both were functional. Both moved. One body, two intentions.
+
+Then they washed out the drug. Completely. Clean water. Normal chemistry. Normal genome — it had never changed.
+
+They cut the worm again.
 
 It came back two-headed.
 
-Again. And again, through repeated rounds of regeneration, with a genome that had never changed. The memory of what shape to be was stored outside the DNA, passed down through cell generations that had never been exposed to the original drug. A memory without a molecule it was encoded in. An inheritance without a gene.
+Stop. Read that again.
 
-Morgan set the flatworm aside in 1901 and spent the rest of his career on the parts list. The parts list is extraordinary and he was right to pursue it. But it was never the foreman. The flatworm had the plan the whole time. It just wasn't written where he was looking.
+No drug. Normal genome. Still two heads. The memory of what shape to be was now stored somewhere that isn't chemistry and isn't DNA. It had been written into the tissue itself — into the bioelectric pattern that the cells maintain and pass to their daughters. Those daughter cells had never been exposed to the original drug. They inherited the memory anyway.
+
+That is not supposed to be possible.
+
+A memory without a molecule it is encoded in. An inheritance without a gene. Morgan spent his career proving heredity lives in chromosomes. He was right. And the flatworm just handed us something that heredity cannot explain.
+
+Morgan set the flatworm aside in 1901 and went looking for the parts list. The parts list took a century to find and it is extraordinary. This book is about the foreman.
 
 ```{figure} ../images/ch01-brain-chauvinism.png
 :name: fig-ch01-brain-chauvinism
@@ -305,14 +319,12 @@ Morgan set the flatworm aside in 1901 and went looking for the parts list. The p
 Six ideas, one per chapter, each traced from cells into machines. The last chapter is an experiment you can actually run.
 ```
 
-## Think About It
+## One Thing to Carry
 
-1. The James criterion says nothing about neurons or consciousness — only about goals and means. Name two systems from your daily life that pass it and two that fail. What separates them?
+You are carrying a biological map of your own hand right now. Every cell in your skin is holding part of it — a voltage pattern, maintained continuously, encoding the shape you are supposed to be. You have never thought about it once. It has never needed you to.
 
-2. *E. coli* measures the *trend* in glucose concentration rather than the level itself. Why does this make it more useful in an unpredictable environment? What would a level-only sensor miss?
+The flatworm carries one too. So does every bacterium chasing a gradient, every slime mold pruning its network, every wound deciding it is done.
 
-3. The slime mold network matched Tokyo's rail system on three engineering metrics. Does this mean the slime mold was doing engineering? What would it take to settle that question — and does the answer change anything about how you would use such a system?
+The question this book keeps asking is: how simple can the hardware get before the plan disappears? How small can the system be and still have something it is trying to stay?
 
-4. The two-headed planarian kept regenerating two-headed after the drug was gone. The memory was stored somewhere other than the genome. Where do you think it was stored, and what does it mean for a memory to be "in" a physical system?
-
-5. TAME asks: what is the cheapest intervention that reliably changes this system's behaviour? Apply that question to a piece of software you work with regularly. Does your answer change how you would describe what that software is?
+That question turns out to have an answer. It is not simple, and it is not comfortable. But it is specific. And specific is where science begins.

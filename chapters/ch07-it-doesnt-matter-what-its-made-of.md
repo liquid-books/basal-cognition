@@ -79,6 +79,16 @@ Three behaviors a xenobot performs that a frog genome never specified: swimming 
 
 :::{note}
 Xenobots can also exhibit a form of kinematic self-replication in specific experimental conditions — they push loose cells into piles that then organize into new xenobots. This is one of the more astonishing findings, though it works reliably only under controlled conditions and with specially shaped parent xenobots. It is not the same as biological reproduction.
+
+There is one more result from the xenobot experiments that deserves its own moment.
+
+Left alone in a dish with loose cells — the same kind of frog skin cells they were made from — xenobots sweep those cells into piles. The piles organize. New xenobots form.
+
+The xenobots are reproducing.
+
+Not sexually. Not through any mechanism evolution designed or selected for. A frog genome, removed from its normal context, spontaneously discovered a form of reproduction that has never existed in the history of life on Earth. No prior generation of frogs did this. No evolutionary pressure selected for it. The capacity was in the library, and a new context opened the page.
+
+Kinematic self-replication. A new word for a new thing. And we found it by accident, by removing a cell from the only context it had ever known.
 :::
 
 Not a single nucleotide changed. The cells were still frog cells with a frog genome. What changed was their context. Removed from the embryo, they fell back on cellular machinery built for other purposes — cilia for mucus, adhesion for skin layers — and repurposed it for locomotion and navigation.
@@ -112,6 +122,20 @@ Anthrobots form from adult human airway cells — not embryonic, not genetically
 
 Nobody engineered the anthrobots to repair neurons. The cellular machinery for wound recognition was already present. In a new context, facing damaged tissue, it activated in a new way.
 
+Stop.
+
+Read that again slowly.
+
+Adult human cells. Not embryonic stem cells — adult, fully differentiated tracheal cells from living donors. Cells that had been airway lining for years. Cells that, by every prior understanding of developmental biology, had given up their flexibility long ago.
+
+They moved toward damaged neurons.
+
+They accelerated healing in tissue they were never designed to touch, using machinery they were never selected to use in this context. Nobody engineered this. Nobody could have — there is no "heal neurons" instruction in an airway cell's developmental program. The capacity was already there, in the genome, waiting for a context that would call it out.
+
+That is not engineering. That is discovery. We did not build something new. We found something that was already possible, that life had never had occasion to express, that was sitting in the library waiting to be read.
+
+The genome is not a blueprint for one organism. It is a library of possible organisms. The anthrobot is a page evolution never turned.
+
 :::{figure} ../images/ch07-anthrobot-repair.png
 :label: fig-ch07-anthrobot-repair
 :alt: Two-panel diagram showing scratched neuron layer without anthrobots healing slowly on the left, and same scratch healing faster with anthrobots present on the right.
@@ -136,6 +160,16 @@ The answer is uncomfortable for anyone who learned that "DNA = blueprint."
 Think of the genome as a toolbox. Every tool was built for specific purposes over millions of years of frog evolution. But tools have properties that work beyond their original context. Cilia that push mucus can push water. Adhesion molecules that build skin can build a spheroid. Wound-repair signals that close skin cuts can close the edge of a moving creature.
 
 The genome permitted all of this. It did not specify any of it. The specified path was "make a frog." The unspecified space — all the other things the same machinery could build in different contexts — is called **latent morphospace**.
+
+Here is the image that makes this concrete.
+
+A piano has 88 keys. A piece of music might use 40 of them. The other 48 keys still work. They are not broken. They are not absent. They are simply not being played.
+
+A genome is like that. Vastly more body plans are playable than any organism ever expresses. Evolution, working over millions of years, has played certain chords — the ones that survived. But the instrument contains thousands of chords that have never been heard.
+
+Put a cell in a new context — strip away the embryo, the tissue, the neighbors — and you are pressing keys evolution never pressed. The xenobot is a chord nobody knew was in the instrument. The anthrobot is a melody the genome has always been able to produce, that life never had occasion to play.
+
+This space of unexpressed but possible organisms is called the **latent morphospace**. And we have barely opened the door.
 
 :::{prf:definition}
 :label: def-latent-morphospace

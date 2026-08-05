@@ -101,6 +101,22 @@ Think about what memory is. A memory is a stored record of past experience that 
 
 Now connect two cells with an open gap junction.
 
+Here is what this looks like up close.
+
+A cell in the edge of a developing embryo has spent the last six hours being compressed by its neighbors. That mechanical experience has left a trace — a slight shift in ion concentrations, a modified protein, a changed membrane potential. That trace is a memory. Not a conscious memory. A physical record of what happened.
+
+Now a gap junction opens between that cell and its neighbor. The neighbor has been in a quieter region. It has its own history, its own pattern.
+
+Ions flow. The modified proteins diffuse. The electrical state equalizes.
+
+After a few minutes, both cells hold the same pattern. The compressed cell's history is now partially in the quiet cell. The quiet cell's calm is now partially in the compressed one.
+
+Whose experience is it?
+
+Neither can say. There is no provenance tag on an ion. The experience has been averaged, blended, pooled into something that belongs to neither cell individually and to both cells simultaneously.
+
+This is what Levin means by the binding problem having a physical answer. Two cells, one shared history, one response pattern. Not two agents agreeing. One agent with two physical locations.
+
 Cell A is sensitized to temperature. Cell B is not. The sensitization is stored in a pattern of ion concentrations and molecular modifications inside cell A. Some of those ions pass through the gap junction into cell B. Cell B begins to hold the same pattern — even though cell B never experienced the original temperature.
 
 Whose memory is it now?
@@ -133,6 +149,18 @@ If all of this is right — if individuality is manufactured by coupling — the
 This prediction is testable. And it has been tested.
 
 Planarian flatworms are the classic example. They regenerate. Cut one in half and you get two worms. This is famous.
+
+Levin's lab blocked the gap junctions in a regenerating planarian.
+
+One body. The cells were all still there. Nothing had been cut. But the electrical state could no longer flow from one region to another. The shared memory pool had been severed into two private pools.
+
+The worm grew two heads.
+
+Not because two heads were in the plan. Because with the communication channel gone, two separate regions each ran their own repair program — each one doing the right thing for a worm that was missing a head, without knowing the other region was doing the same thing on the other end.
+
+One body. Two wills. Two intentions. Two regenerating programs running in parallel in a single animal.
+
+Close the gap junctions and one individual becomes two. That is not a metaphor for what communication does to identity. It is the literal experiment. The individual is the sharing. Sever the sharing and you have divided the self.
 
 Less famous: you can manipulate *what* regenerates by changing the bioelectric coupling between cells before you cut. Levin's lab has shown that altering gap junction function in an intact worm changes the body plan the resulting pieces will regenerate toward. Same genome. Different coupling. Different outcome.
 

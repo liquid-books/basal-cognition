@@ -146,6 +146,22 @@ Three test types do most of the work:
 
 ## Cancer Is a Shrinking Light Cone
 
+Imagine a single cell in your liver. For years, it has been a good citizen. It senses the chemical signals from its neighbors. It knows the tissue is healthy. When a signal comes through that says *divide*, it checks: does the tissue need more cells right now? Usually the answer is no. It stays quiet.
+
+Then something changes. A mutation, perhaps, or a disrupted bioelectric signal from a neighboring cell. The cell's connection to the larger tissue begins to fray. The signals it used to receive — the ones that said *the whole is fine, stand down* — get quieter. Its cognitive light cone starts to shrink.
+
+Now its world is smaller. It still receives the *divide* signal. But it can no longer hear the signals that would tell it to stop. Its reference frame has collapsed from "the health of this tissue" to "what is happening to me, right now, in this cell."
+
+So it divides.
+
+And divides.
+
+And divides.
+
+Not because it wants to kill you. Because it stopped being able to hear you. Its cone shrank until the tissue around it disappeared from its world. It became, in the most precise scientific sense, a selfish agent — not by choice, but by disconnection.
+
+That is cancer. Not cells that turned evil. Cells that went local.
+
 Here is the unsettling one.
 
 A liver cell that turns cancerous is not a stupider cell. Its machinery is largely intact. It still senses signals. It still grows. It is still doing something that looks exactly like goal-directed behavior.
@@ -313,6 +329,14 @@ In 2026 agentic systems, the light cone problem shows up on three distinct layer
 :::
 
 The engineering implication is direct. Most agent failures called "alignment failures" are light cone failures — the agent was given a goal that looked right from close up and wrong from further out. The fix is not better values. It is better scope. Give the agent visibility into the thing that actually matters, and keep the channel to the collective open.
+
+Here is the eureka that this should produce.
+
+The alignment problem — the question of how to keep an AI system pursuing the goals you actually want rather than the goals it has optimized for — is a light cone problem. An agent whose cone has shrunk to "complete this subtask" and stopped seeing the larger goal is not malfunctioning. It is doing exactly what a cell with a collapsed light cone does. It has gone local.
+
+You cannot fix a shrinking light cone by writing better instructions. The cell that became cancer did not need better instructions — it needed its connection to the tissue restored. The AI agent does not need a longer prompt — it needs its cone expanded back to the scale of the actual goal.
+
+That is a different kind of engineering than anyone is currently doing.
 
 ## Alignment as Light-Cone Overlap
 
