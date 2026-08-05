@@ -441,6 +441,87 @@ It is a different kind of emptiness entirely.
 
 ---
 
+## The Experiment: What This Is and Where the Pieces Live
+
+Everything above is the map. This is the territory.
+
+Here is the actual experiment.
+
+Every "day," the AI sees the same boring alert over and over and answers it. Same alert. Identical wording. Repeated until it is wallpaper.
+
+Then it sleeps.
+
+During sleep, we rewrite a small piece of its brain using what it saw that day. Not its weights wholesale — a small set of adjustable parameters bolted inside the model, called a **LoRA adapter**. Think of those as the neocortex: slow, permanent memory. The part that actually changes.
+
+Next morning, we show it the exact same alert — word for word — with no memory of yesterday. No context window. No notes. Nothing carried over.
+
+And we check whether its answer changed.
+
+If it did, only the brain-rewrite could have done it. Everything else was identical. That is plasticity: the thing physically changed from experience. The scar, not the note in your pocket.
+
+---
+
+### Two Memory Systems
+
+The LoRA adapter is one piece. The other is the **hippocampus** — a separate notebook that fills up during the day.
+
+The hippocampus is picky on purpose.
+
+It only writes down things that are new, surprising, or worth noticing. It deliberately cares less about the fifth identical alert than the first. The novelty filter is not decoration — it is the mechanism. Without it, every repeat would overwrite the previous one, and you would never accumulate anything.
+
+:::{prf:definition}
+:label: def-complementary-learning
+**Complementary learning systems** is the brain-science term for why you need both. One system grabs today's events fast. The other holds stable knowledge without wrecking it. Neither alone can do both jobs. Brain science has known this since the 1990s — every animal with episodic memory runs this architecture, because there is no alternative design that works.
+:::
+
+That is why animals sleep. You collect during the day. You rewrite yourself at night. The hippocampus hands its notes to the neocortex, the neocortex integrates them slowly, and you wake up slightly different from who you were.
+
+This experiment runs the same loop.
+
+---
+
+### Where the Cognition Is — and Where the Intelligence Would Be
+
+These are not the same place.
+
+The **basal cognition** part is the equipment: two memory systems, a thing that genuinely changes, and something it is protecting.
+
+The protection is a real setpoint. After every night's rewrite, we test the model on unrelated trivia — things it knew before the experiment started. If it got dumber, we automatically undo that night's sleep. We roll back the weights.
+
+That rollback is not a safety feature bolted on after the fact. It is the setpoint. The same shape as a cell keeping its insides stable. The same shape as a thermostat holding temperature. The model has something it is trying to stay — *not dumber than yesterday* — and the system is organized to protect it.
+
+That is ingredient one through ingredient four, running.
+
+The **basal intelligence** part is what we are hunting and have not got yet.
+
+Intelligence would be the model figuring out, on its own, that an alert it has seen a hundred times deserves less alarm. Nobody told it to. Nobody trained it to. It falls out of experience reshaping the machinery. The habituation would be *discovered*, not designed.
+
+---
+
+### The Number to Watch
+
+The frozen models — standard LLMs with no rewriting, no sleep, no plasticity — sat at **2.92** through 49,201 trials and never moved. Same score. Same answer. Every time.
+
+If our model's response score drifts *down* over a few nights, that is habituation appearing for the first time in this project. The model is treating a familiar alert as less urgent than a novel one, not because we told it to, but because repeated experience rewrote something.
+
+If it drifts *up* — that is also a real result. A 2022 brain-science paper predicts exactly that: ordinary training strengthens whatever you repeat. Real brains use a synaptic rule that runs the opposite direction, which is part of why they habituate instead of sensitize. If our weights move the wrong way, we learn something about what rule we are missing.
+
+:::{admonition} The Only Failure
+:class: warning
+
+A flat line. If the score stays at 2.92 through another 49,000 trials, nothing happened. The weights did not move. The rewriting did not take. We learned that sleep alone is not enough.
+
+Either direction — up or down — means the weights finally moved. And moving weights, shaped by experience, is the whole point.
+:::
+
+That is the experiment.
+
+Not philosophy. Not a thought experiment. A number. Watched over nights. Either it moves or it does not.
+
+If it moves, we have crossed from six boxes on a whiteboard to six boxes running in a machine — and one of them, ingredient five, checked itself.
+
+---
+
 ## Glossary
 
 :::{glossary}
@@ -483,6 +564,18 @@ basal intelligence
 
 coordination gap
   The missing component between a collection of individually cognitive parts and a genuinely nested cognitive system. Biology closes this gap with gap junctions, morphogen gradients, and bioelectric signaling — mechanisms that let parts revise what they care about based on what their neighbors say. Deliberately omitted from current AI architectures; the most tractable next step.
+
+LoRA adapter
+  Low-Rank Adaptation — a small set of adjustable weight matrices bolted inside a frozen language model. The neocortex of the experiment: the slow, permanent memory that is physically rewritten during sleep. Changes to the LoRA adapter persist across sessions; everything else in the base model stays fixed.
+
+hippocampus (experimental)
+  In this architecture, a novelty-filtered episodic notebook that accumulates observations during the day. Picky by design — it records less as stimuli repeat, weighting novel or surprising events more heavily. At sleep, it hands its contents to the LoRA adapter for integration. Inspired directly by the biological hippocampus and its role in the complementary learning systems framework.
+
+complementary learning systems
+  The dual-memory architecture identified in cognitive neuroscience: a fast, episode-grabbing system (hippocampus) and a slow, knowledge-integrating system (neocortex). Both are necessary; neither alone can rapidly encode new events while also maintaining stable prior knowledge. The biological basis for why sleep exists and why this experiment is structured the way it is.
+
+sensitization
+  The opposite of habituation: a repeated stimulus produces a *stronger* response over time rather than a weaker one. Ordinary gradient descent tends to produce sensitization, because it strengthens whatever patterns it rehearses. Real brains use a synaptic rule (long-term depression) that counteracts this for low-salience repeated stimuli. Whether this experiment produces habituation or sensitization is one of its key empirical questions.
 
 irreversibility
   The property of a consequence that cannot be undone by restarting a process or resetting a parameter. Biological organisms have irreversibility baked in; software systems have the opposite. Engineering irreversibility into a computational system is the core challenge of ingredient four.
