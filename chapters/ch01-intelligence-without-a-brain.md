@@ -216,6 +216,37 @@ Three systems. Three different interventions. But the same underlying question e
 
 That question is Michael Levin's TAME framework — the Technological Approach to Mind Everywhere — and it is more powerful than it sounds. It swaps an unanswerable question for a useful one.
 
+**TAME in one sentence:** Instead of asking *is this thing conscious?*, ask *what is the cheapest thing you can change that reliably changes its behavior?*
+
+```{list-table} TAME at a glance
+:header-rows: 1
+:name: tbl-tame-glance
+
+* - System
+  - What changes its behavior
+  - What TAME calls it
+* - Thermostat
+  - Rewire it
+  - Reprogramming
+* - Dog
+  - Train it with rewards
+  - Training
+* - Colleague
+  - Talk to it
+  - Persuasion
+* - Bacterium
+  - Change the chemical gradient
+  - Environmental manipulation
+* - Slime mold
+  - Move the food source
+  - Environmental manipulation
+* - Tumor
+  - Restore the voltage signal
+  - Bioelectric intervention
+```
+
+That's it. That's the whole framework. Every system has a cheapest lever. TAME is the discipline of finding it.
+
 Do not ask: *is this thing conscious?* Nobody can operationalise that. Ask instead: *what is the cheapest intervention that reliably changes its behaviour?* A thermostat gets reprogrammed. A dog gets trained. A colleague gets persuaded. Every system has an answer, and the answer is immediately actionable.
 
 ```{figure} ../images/ch01-tame-map.png
