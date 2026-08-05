@@ -56,6 +56,8 @@ project:
       file: chapters/ch08-does-your-ai-get-bored.md
     - title: "Chapter 9: Six Ingredients"
       file: chapters/ch09-six-ingredients.md
+    - title: "Chapter 10: The Experiment"
+      file: chapters/ch10-the-experiment.md
 
 site:
   title: "Basal Cognition"

@@ -204,6 +204,11 @@ The habituation experiment nobody has run yet. Full protocol, controls, and anal
 A precise map of what basal cognition actually requires — and where AI stands on it. With a four-way scorecard that reveals exactly why AI is simultaneously brilliant and structurally hollow.
 :::
 
+:::{grid-item-card} Chapter 10: The Experiment
+:link: ./chapters/ch10-the-experiment.md
+A blueprint, not a hope. Two memories, one sleep cycle, a LoRA adapter as neocortex — and the specific test that will show whether the weights finally move.
+:::
+
 ::::
 
 ---
