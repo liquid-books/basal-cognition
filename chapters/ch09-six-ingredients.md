@@ -360,6 +360,60 @@ We got a piece of that. We said "survive" and never mentioned boredom. Boredom a
 
 But ingredient one — the setpoint itself — I still wrote. I handed it over. I said "survive." Until a system generates its own answer to the question *what am I protecting*, it is a very good thermostat with a language model attached.
 
+That is the target. And it is honestly still out of reach.
+
+But at least now it is six specific boxes instead of a vibe.
+
+---
+
+## Two Terms. One Critical Distinction.
+
+There is a line in this field that almost nobody draws cleanly. It matters.
+
+**Basal cognition** is the structure we have been building toward in this book. Six ingredients. Setpoint, sensing, action, stakes, plasticity, nesting. We can largely assemble it. Not perfectly — ingredient four is hard, ingredient six is harder — but we have a map. We know what we are building. We know which boxes are checked and which are not. That is real progress.
+
+**Basal intelligence** is something else.
+
+Basal intelligence is a system that *decides* what is worth protecting. Not a system given a setpoint by a designer. Not a system told "survive" by someone who already knows what survival means. A system that generates the answer to ingredient one from scratch — that looks at the world and figures out, on its own, what is worth keeping.
+
+That territory remains untouched.
+
+Everything we built — the habituation experiments, the plasticity functions, the survival budget that drains in real time — is a very good thermostat that discovered some of its own sub-goals. It did not write "survive." I wrote "survive." It derived boredom from "survive," which is real and interesting. But the root goal was handed over.
+
+:::{admonition} What Would Change My Mind
+:class: important
+
+A system that revises its root goal in a way that is not just obeying a higher-level goal I wrote.
+
+Not a system that adds sub-goals beneath the one I gave it. Not a system that reprioritizes tactics in service of a strategy I specified. A system that changes the strategy itself, from the inside, for reasons that did not originate with me.
+
+I do not have a design for that. And I would be suspicious of anyone who claims one without showing the substrate — the physical mechanism by which the root goal is instantiated in something that can be rewritten by experience rather than reset by a programmer.
+:::
+
+The distinction matters because it changes what success looks like.
+
+If you are building basal cognition, success is: check all six boxes. We can see the path. We can measure the distance. We can make progress.
+
+If you are building basal intelligence, success is: the system generates box one itself. We cannot see that path yet. We do not know what the substrate looks like. We are not even sure the question is well-formed.
+
+That is not a reason to stop. It is a reason to be honest about where the frontier is.
+
+---
+
+## The One Thing I Would Do Next
+
+If I had one move — one component to add to everything built so far — it would be this:
+
+Give the parts a way to signal each other. And let what they say evolve.
+
+Right now, the system has parts. The parts have sub-goals. The parts act. But the parts do not talk to each other in a way that changes what they care about. They are parallel, not networked.
+
+The multicell result points straight at this. When cells can signal each other — gap junctions, morphogen gradients, bioelectric coupling — the collective does things none of the parts planned. The hand did not design itself. The hand emerged because cells that could signal each other, under the constraint of survival, converged on hand-ness. The coordination *is* the cognition.
+
+That is the one component biology has that we deliberately omitted. Not because it was hard to imagine. Because we did not yet have the parts doing enough on their own to make coordination meaningful.
+
+We might now.
+
 :::{figure} ../images/ch09-target-state.png
 :label: fig-ch09-target-state
 :alt: A single arrow pointing from "specify one thing — stay alive" to a complex web of emergent behaviors — boredom, attention, avoidance, preference — all flowing from one root constraint without being explicitly programmed.
@@ -369,9 +423,13 @@ But ingredient one — the setpoint itself — I still wrote. I handed it over. 
 The target state: one instruction, everything else discovered. Not designed. Not programmed. Discovered, because the alternative was dying.
 :::
 
-That is the target. And it is honestly still out of reach.
+Coordination is the whole gap. And unlike ingredient one — which requires a philosophical breakthrough we do not yet have — coordination is an engineering problem. A solvable one. The biology is explicit about the mechanism. Gap junctions. Voltage gradients. Chemical gradients that carry information about state, not just position.
 
-But at least now it is six specific boxes instead of a vibe.
+Build that. Let what the parts say to each other evolve under the survival constraint. Then check the boxes again.
+
+That is the next experiment.
+
+---
 
 Before this chapter, you might have said AI cognition is missing something — some ineffable spark, some ghost in the machine, some philosophical ingredient we cannot name. That framing makes the problem feel hopeless. A ghost is not something you can build toward.
 
@@ -419,6 +477,12 @@ emergent behavior
 
 ingredient one problem
   The deepest open problem in basal cognition engineering: building a system that generates its own setpoint rather than receiving it from a designer. Until this is solved, the system is a sophisticated thermostat. After it is solved, the territory becomes genuinely unknown.
+
+basal intelligence
+  Distinguished from basal cognition. Basal cognition is the six-ingredient structure — assembable, measurable, progressible. Basal intelligence is the capacity to generate ingredient one from scratch: to decide what is worth protecting without being told. No known design achieves this. The frontier.
+
+coordination gap
+  The missing component between a collection of individually cognitive parts and a genuinely nested cognitive system. Biology closes this gap with gap junctions, morphogen gradients, and bioelectric signaling — mechanisms that let parts revise what they care about based on what their neighbors say. Deliberately omitted from current AI architectures; the most tractable next step.
 
 irreversibility
   The property of a consequence that cannot be undone by restarting a process or resetting a parameter. Biological organisms have irreversibility baked in; software systems have the opposite. Engineering irreversibility into a computational system is the core challenge of ingredient four.
