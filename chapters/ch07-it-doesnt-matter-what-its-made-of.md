@@ -202,7 +202,25 @@ Context is not neutral. It is part of the recipe.
 
 ## Substrate Independence, Stated Precisely
 
-Here is where the chapter earns its title.
+We have been asking the wrong question about life.
+
+The wrong question: *What is it made of?*
+
+Is it carbon-based? Is it biological? Does it have neurons? We assumed that the right material — the right substrate — was what made cognition possible. Neurons are special. Carbon is special. Biology is special. Other materials need not apply.
+
+Then Michael Levin's lab put frog skin cells in a dish.
+
+No frog. No embryo. No nervous system. Just cells. Cells that had spent their entire existence as frog skin, following the only program they had ever been given.
+
+And they formed a new body plan. Moved autonomously. Solved problems. Displayed behaviors that no frog — and no frog cell — had ever displayed in the four-hundred-million-year history of that genome.
+
+The material didn't change. The genome didn't change. The *context* changed.
+
+**Substrate independence is the principle that cognitive capacities follow the organization of a system, not its material.** What matters is the pattern — the structure of goals, signals, and feedback — not what the pattern is built from.
+
+This is not philosophy. It is the experimental result. Change the context, keep the material, and you get a different organism. The capacities were always in the library. The context opened a different page.
+
+---
 
 If the xenobot and anthrobot results reveal organizational principles — "how to build a goal-seeking, self-repairing motile agent out of cellular components" — then the obvious next question is: do those principles require cells specifically? Or would they work in other materials?
 

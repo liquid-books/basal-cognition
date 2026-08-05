@@ -41,6 +41,22 @@ This is why the answer to "where does *you* stop?" is not your skin. It is the b
 
 ## Gap Junctions: The Physical Glue
 
+Here is the gap in the story.
+
+We can explain what a single cell does. We can explain what an organism does. But how do fifty million cells — each with its own electrical state, its own membrane potential, its own local history — act as one?
+
+Something has to link them. Something has to pool their individual states into a shared state. Something has to make the collective's behavior more than the sum of fifty million individual reflexes.
+
+For thirty years, nobody had a clean mechanism. Cells signaled each other chemically — hormones, growth factors, diffusing molecules. That explained a lot. It didn't explain how a tissue could make a decision in milliseconds. Chemical diffusion is too slow. The math didn't work.
+
+The mechanism is **gap junctions**.
+
+**Gap junctions are direct electrical connections between adjacent cells — protein tunnels that allow ions, small molecules, and electrical signals to flow freely from one cell's interior to the next.**
+
+When gap junctions are open, adjacent cells don't just *communicate* — they partially *share* an electrical state. Their individual histories blend. Their individual signals pool. What one cell experienced becomes part of what the neighboring cell knows.
+
+That is not messaging. That is memory pooling. And it is why a tissue can behave like one mind even though it is built from millions of separate bodies.
+
 :::{figure} ../images/ch06-gap-junction-structure.png
 :label: fig-ch06-gap-junction-structure
 :alt: Cross-section of two cells connected by gap junction channels — showing ions and small molecules passing directly from cytoplasm to cytoplasm.

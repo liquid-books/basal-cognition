@@ -78,6 +78,20 @@ The range between the bacterium and the institution is not a difference in kind.
 
 ## The Cognitive Light Cone
 
+Here is a question you cannot answer: how far does this system's awareness extend?
+
+You can't answer it for a bacterium. You can't answer it cleanly for a dog. You can barely answer it for another human. "Awareness" is back inside the consciousness problem — the same circle we keep walking.
+
+Here is a question you *can* answer: how far does this system's *behavior* extend?
+
+Not what it feels. What it does. Does it respond to events one millimeter away, or one meter, or one kilometer? Does it factor in the next second, or the next year? You can measure that. You can chart it. You can watch it shrink or expand under different conditions.
+
+That measurable territory is the **cognitive light cone**.
+
+**The cognitive light cone is the region of space and time that a system's behavior actually reflects.** Not the region it can sense. Not the region it "knows about." The region that shows up in what it does.
+
+A bacterium chasing a sugar gradient has a cone maybe a millimeter wide and a fraction of a second deep. A foraging ant has a cone that spans its territory and its colony's seasonal memory. A city planner has a cone spanning decades and a metropolitan area. None of these required a consciousness claim. All of them are observable.
+
 :::{figure} ../images/ch03-light-cone-axes.png
 :label: fig-ch03-light-cone-axes
 :alt: A two-axis diagram of the cognitive light cone. Horizontal axis is Spatial Reach from narrow to wide. Vertical axis is Temporal Reach from now to far future. A cone expands from a single point at the origin.
@@ -86,10 +100,6 @@ The range between the bacterium and the institution is not a difference in kind.
 
 Two axes, one shape. Every goal-directed system sits somewhere inside this space. The bacterium is a dot at the origin. You are a large cone. Neither is wrong — they are adapted to different scales of problem.
 :::
-
-Here is something you already know. A GPS knows your current block. A cab driver who has worked a city for twenty years knows every neighborhood and which routes back up on Fridays. A transit planner thinks about where traffic will be in fifteen years and designs for a population that does not exist yet. All three know where they are. But their reach is completely different.
-
-That difference in reach is exactly what the cognitive light cone captures.
 
 Physicists use the term "light cone" to describe how far a signal can travel before it becomes causally irrelevant — information cannot outrun light. Michael Levin borrowed the shape of that idea deliberately. A living system's cone is how far its goal-representing can reach before the rest of the world becomes invisible to its decisions. Bigger cone: more world included. Smaller cone: more world ignored.
 

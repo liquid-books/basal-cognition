@@ -89,17 +89,23 @@ The clearest published evidence for this comes from studies of polyploid salaman
 
 ## The Ladder
 
-The newt's tubule is not an exception. It is an example of a pattern that runs from the bottom of biology to the top.
+Biology has a question we kept answering wrong.
 
-Before we climb it, here is the shape of the logic.
+The question: *which level is in charge?*
 
-A general gives one order: *take that hill.* A colonel interprets it for the regiment — which units go first, which provide cover. A sergeant improvises the route when the road is blocked. A private decides where to plant their foot in the mud.
+Is the organism making the decisions? Or the organ? Or the cell? Or the protein? Pick your answer. Every textbook has a different one. And every answer is wrong in exactly the same way — it assumes one level owns the decision and everything else just executes.
 
-Nobody micromanaged the footsteps. The general does not need to know about the mud. The private does not need to know about the strategic map. Each level is sovereign over its own domain. Each level receives a *what* from above and produces a *how* for the level below.
+That is not how it works.
 
-This is why the general's order survives a road being blocked. The goal traveled down. The means traveled up. The system as a whole is far more robust than any of its levels, because no single level needs to know everything.
+A cell in your liver is solving a problem right now. So is the tissue that cell belongs to. So is the organ. So is you, the whole organism, reading this sentence. None of them is waiting. None of them delegated to the others. All of them are running simultaneously, each competent at its own scale, each solving for its own target, each producing outputs that become inputs for the levels above and below it.
 
-Now run that same logic through biology — from molecule to cell to tissue to organ to organism to swarm — and you have multi-scale competency architecture.
+**Multi-scale competency architecture** is the framework for taking that seriously.
+
+**MCA does not ask which level is in charge. It recognizes that every level is in charge — of its own domain — simultaneously.**
+
+The cell does not need to know what the organism is trying to do. The organism does not need to know which proteins the cell is assembling. Each level is sovereign. Each level is competent. And the system as a whole is far more robust than any of its levels, precisely because no single level needs to know everything.
+
+Now run that same logic through biology — from molecule to cell to tissue to organ to organism to swarm — and you see the pattern everywhere.
 
 Every living system is a nested stack of agents. Each level has its own goals. Each level monitors its own error signals. Each level has partial autonomy over how it achieves its outcome. And each level is built out of agents that are doing the same thing one rung down.
 

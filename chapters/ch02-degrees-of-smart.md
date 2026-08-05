@@ -28,30 +28,19 @@ Three problems. Three completely different approaches. And here is the key: each
 
 The degree of smartness tells you what kind of intervention actually lands.
 
-## The Spectrum
+## The Persuadability Spectrum
 
-Picture a line. On the far left: a gear. On the far right: you.
+We have been using the wrong labels.
 
-Everything in the universe sits somewhere on that line. Not in a category — on a continuum. The line measures one thing: how much of the problem-solving does the system do for you once you give it input?
+Smart. Dumb. Intelligent. Primitive. These words feel like they mean something. They don't — not when you need to actually change a system's behavior.
 
-A gear does none of it. You move the gear. The gear moves.
+Call a dog smart and you still don't know whether to retrain it, rewire it, or have a conversation with it. Call an AI agent dumb and you still don't know whether the problem is its weights, its prompt, or its environment. The label names a property. It says nothing about the lever.
 
-A thermostat does a little. You set 72°F. It measures, compares, switches. Small loop. Dumb loop. But a loop.
+The persuadability spectrum is the escape hatch.
 
-:::{figure} ../images/ch02-thermostat-minimal.png
-:label: fig-ch02-thermostat-minimal
-:alt: A thermostat dial set to 72 degrees F, connected by arrows to a feedback loop showing sensor, compare, and switch steps. Labeled "the minimum unit of goal-directed behavior."
-:width: 80%
-:align: center
+**It does not ask how intelligent a system is. It asks what kind of intervention reaches it.**
 
-The thermostat is the smallest goal-directed system worth studying. It has a target state, a sensor, and a corrective action. Everything on the right side of the spectrum does something like this — but richer, faster, and with goals that weren't hard-coded in.
-:::
-
-A bacterium does more. You change the chemistry of the water. The bacterium senses the gradient and swims. It runs its own algorithm. You just changed the environment.
-
-A trained dog does more still. You say "sit." Years of paired signals are now compressed into that word. The dog runs an internal simulation and decides.
-
-A person does the most. You present an argument. They model your goals, their goals, the future, the past, and what their friends would think — and then they decide.
+That is a different question — and it has a different answer for every system you will ever work with. Get the intervention wrong and you don't just fail. You actively make things worse. You demote a capable system by treating it like a gear. You waste effort reasoning with something that cannot process reasons. The spectrum tells you which tool to pick before you reach into the box.
 
 :::{figure} ../images/ch02-spectrum.png
 :label: fig-ch02-spectrum
@@ -61,10 +50,6 @@ A person does the most. You present an argument. They model your goals, their go
 
 Five positions on the persuadability spectrum. The farther right a system sits, the less you need to specify — and the more you need to communicate.
 :::
-
-This is the **persuadability spectrum**. Michael Levin's TAME framework calls the right end of it "persuadable systems" — things you can influence by sending a signal and letting the system figure out the rest. The left end is "mechanistic systems" — things you have to specify in full.
-
-The useful move is not memorizing which things go where. It's developing the reflex to ask: *before I choose my intervention, where does this system actually sit?*
 
 :::{prf:definition}
 :label: def-persuadability-spectrum

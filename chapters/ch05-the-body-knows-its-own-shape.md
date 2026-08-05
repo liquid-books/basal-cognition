@@ -74,23 +74,21 @@ The question is not how the worm *grows*. The question is how the worm knows whe
 
 ## Homeostasis, Expanded
 
-Your body is doing this right now.
+You already know about one kind of homeostasis. You learned it in school.
 
-Not occasionally. Not when you are sick or injured. Continuously, every second, while you read this sentence, it is running thousands of comparison loops in parallel — checking current state against stored target, generating error signals, issuing corrections.
+Your body maintains temperature. When you get too hot, you sweat. When you get too cold, you shiver. There is a setpoint — roughly 37 degrees Celsius — and your body defends it continuously, spending energy every second to hold the line.
 
-The obvious ones: temperature, blood sugar, blood pressure. You have heard of these.
+Now ask the question nobody asks in school:
 
-The one nobody mentions: shape. The number of fingers on your hand. The position of your eyes relative to your ears. The length of your left arm compared to your right. These are not built once and left alone. They are actively maintained. Defended. Every day.
+*Does your body do that for shape?*
 
-Same mechanism. Same logic. Vastly different dimension.
+Does it maintain a target for the number of fingers on your hand? For the position of your eyes? For the length of your left arm relative to your right?
 
-You have heard of homeostasis. Your body keeps its temperature near 37°C. It keeps blood glucose in a narrow band. It keeps blood pH between 7.35 and 7.45. Drift outside those ranges and cells start to fail.
+The answer is yes. Same mechanism. Same logic. Same continuous comparison of current state against stored target. The only difference is that the shape homeostasis is invisible — it runs in the background every day of your life and never surfaces unless something goes wrong.
 
-The mechanism is always the same: compare the current state to a setpoint, act to close the gap, stop when the error goes to zero. Negative feedback. The thermostat model.
+**Anatomical homeostasis is the body's continuous defense of its shape, using the same error-correction logic it uses for temperature — but encoded not in hormones, but in bioelectric patterns.**
 
-Levin's move — the one that matters for this chapter — is to extend that logic to *shape*.
-
-Your body does not just hold a target temperature. It holds a target anatomy. The number of fingers on your hand. The position of your eyes. The length of your limbs relative to your trunk. These are setpoints too. They are defended continuously, not built once and abandoned.
+When Levin's lab disrupts those patterns, the body loses the setpoint. It doesn't stop growing. It stops knowing when to stop.
 
 :::{figure} ../images/ch05-thermostat-vs-anatomy.png
 :label: fig-ch05-thermostat-vs-anatomy
