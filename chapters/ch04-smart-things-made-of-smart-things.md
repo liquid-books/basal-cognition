@@ -104,6 +104,8 @@ One rung up: organism. You wake up cold. You shiver. You reach for a blanket. Yo
 
 One rung up: swarm, colony, society. A bee colony thermoregulates. Individual bees fan or cluster based on local temperature. No bee has the blueprint. The hive has the setpoint.
 
+You need a name for this, because it keeps appearing. Cells doing it for tissues. Tissues doing it for organs. Organs doing it for organisms. Organisms doing it for colonies. The pattern is the same at every level, and once you see it you cannot unsee it. The newt's kidney tubule is not a special case — it is the rule. Every level of biological organization is solving for an outcome rather than executing a script, and delegating the *how* to the level below.
+
 :::{prf:definition}
 :label: def-mca
 **Multi-scale competency architecture (MCA)** is the organizational pattern in which a system is built from nested layers of goal-directed agents, each layer specifying outcomes for the layer below while pursuing its own outcome for the layer above. First named and formalized by Michael Levin (Tufts University) as part of the TAME framework.

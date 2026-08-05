@@ -42,6 +42,16 @@ That is not a flaw. For a single cell chasing glucose, it is exactly enough.
 :width: 80%
 :align: center
 
+Before we go further, a word about the word *caring*.
+
+A bacterium cannot feel anything. It has no nervous system, no experience, no preferences in any conscious sense. And yet it behaves — consistently, reliably, across billions of years of evolution — as if the next few micrometers of its chemical environment matter to it. As if the direction of the gradient is something it is *invested* in.
+
+Call that caring or don't. The behavior is the same either way.
+
+What we are actually measuring when we say a system "cares" about something is this: does the system's behavior change — adaptively, persistently — in response to changes in that thing? If yes, that thing is inside the system's circle. If no, it is outside. The word caring is a shorthand. The measurement is behavioral.
+
+With that established: how big is a bacterium's circle?
+
 The bacterium's entire world is the gradient in front of it. That world is measured in micrometers and milliseconds. Everything outside it might as well not exist.
 :::
 

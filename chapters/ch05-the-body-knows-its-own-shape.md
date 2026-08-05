@@ -169,6 +169,14 @@ The two-headed planarian. The genome is not changed. The bioelectric pattern is 
 
 That storage layer is bioelectric.
 
+Here is the image that makes this click.
+
+A television screen doesn't store a picture in any single pixel. The picture is in the *pattern* of all the pixels together. Scramble the pattern and you lose the image, even though every individual pixel still works perfectly. Restore the pattern and the image returns.
+
+Your tissue works the same way. Your hand's shape is not stored in any single cell. It is in the electrical pattern across all of them — a voltage map that every cell in the tissue participates in holding. Wound the tissue and you tear a hole in the pattern. The injured edge becomes electrically distinct from the surrounding cells. That mismatch — between the current pattern and the intact one — is what drives repair. Close the gap, restore the pattern, and the signal that was driving repair no longer exists.
+
+The stop signal is not a message. It is the absence of an error.
+
 Every cell in your body maintains a voltage difference across its membrane — inside is more negative than outside. In neurons, we call this the resting potential, and we understand it well. But voltage gradients exist across all cells, not just neurons. In tissues, these gradients form patterns across the whole surface. Neighboring cells compare their voltages through structures called gap junctions — protein channels that let ions, and therefore electrical signals, flow between cells directly.
 
 :::{figure} ../images/ch05-bioelectric-membrane-map.png

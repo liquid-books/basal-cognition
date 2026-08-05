@@ -378,6 +378,8 @@ An AI agent that gives bad answers might need a better prompt, a new tool, or a 
 
 The skill is the diagnosis. Develop it first. Everything else follows.
 
+Here is why this matters for everything that follows. The experiments in this book — the ones that ask whether AI systems habituate, whether a model changes from experience, whether a synthetic organism can generate its own goals — are all, underneath, asking where something sits on this spectrum. A system that only executes (Tier 1) cannot habituate. A system that only reacts (Tier 2) cannot learn. A system that trains (Tier 3) changes — but only within the goals it was given. The question the later chapters are trying to answer is whether any of our built systems have crossed into Tier 4: not just executing goals we specified, but representing goals flexibly enough that experience reshapes them. The spectrum is not a taxonomy. It is a diagnostic. And the chapters ahead are running the test.
+
 ## 🤔 Think About It
 
 Here's a genuine puzzle with no clean answer.

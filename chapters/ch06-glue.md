@@ -18,38 +18,19 @@ tags: [gap-junctions, individuality, binding, multi-agent, bioelectricity]
 The glue that holds a self together is not a metaphor. It is a physical channel — and the amount of glue you have determines whether you are one thing or many.
 :::
 
-You are made of about 37 trillion cells. None of them is you. Each one is a small bag of chemistry with its own goals: absorb nutrients, make proteins, divide when the signal says divide. They do not think about the big picture.
+Imagine you and a friend are connected by a wire. Not a phone — a wire. A direct connection between your nervous systems. Whatever electrical signal fires in you travels instantly into them. You'd share every impulse the moment it arose. You couldn't tell, after a few seconds, which thoughts were originally yours. You couldn't tag them. The signals would mix.
 
-And yet you are one thing. One *you*, not 37 trillion tiny yous stacked in a coat.
+Would you be two people or one?
 
-Something turns that crowd into a single agent. Call it glue.
+That is not a thought experiment for cells. That is Tuesday.
 
-The surprising part: the glue is not a metaphor. It is a physical tube between cells. Whether a collection of cells forms one creature or many comes down to whether those tubes are open or closed.
+Gap junctions are that wire. Protein tunnels drilled directly between adjacent cells, connecting their cytoplasms. Ions flow through them. Small molecules flow through them. Electrical signals — changes in membrane voltage — flow through them at nearly the speed of electricity. And once a signal has passed through, neither cell can tell where it came from. The state is shared. Non-attributable. Mixed.
 
----
+Two cells connected by open gap junctions are not two cells sending messages to each other. They are, in a measurable functional sense, one cell with two compartments.
 
-## The Boundary Question
+Now ask the boundary question again: where does one cell end and another begin? The membrane is still there. But the electrical state is shared. And it is the electrical state — not the membrane — that actually does the computational work.
 
-:::{figure} ../images/ch06-boundary-question.png
-:label: fig-ch06-boundary-question
-:alt: Nested circles showing candidate boundaries for selfhood — cell, tissue, organ, organism, colony — with question marks at each boundary.
-:width: 80%
-:align: center
-
-Every circle is a candidate boundary for selfhood. Something decides which one counts. The answer is not obvious — and it is not fixed.
-:::
-
-Ask a simple question: where does *you* stop?
-
-Your skin is the obvious answer. But skin cells are being shed and replaced constantly. The atoms in your body are not the same atoms from ten years ago. Even your neurons — which do not divide — are built from molecules that cycle in and out.
-
-The boundary question goes deeper. Your gut contains about 38 trillion bacteria. They live inside you. They affect your mood, your immune response, your weight. Are they you? Most biologists would say no — but the line is blurry.
-
-Go the other direction. A beehive thermoregulates. Individual bees fan to cool it or cluster to warm it. No single bee is tracking the hive temperature. The hive is. Is the hive an organism?
-
-The answer biology has landed on is not "it depends on how you feel about it." It is measurable: **the boundary of selfhood is the boundary of shared information.** The cells that share state with each other — real-time, continuous, non-attributable sharing — form one agent. The cells that do not are doing something else.
-
-This is not philosophy. It makes predictions. And those predictions can be cut.
+This is why the answer to "where does *you* stop?" is not your skin. It is the boundary of shared information.
 
 :::{prf:definition}
 :label: def-individuality
@@ -69,13 +50,11 @@ This is not philosophy. It makes predictions. And those predictions can be cut.
 Gap junctions are direct bridges between cells. Ions, small molecules, and electrical signals move through them without touching the extracellular space. The two cytoplasms become, in a functional sense, one.
 :::
 
-Most signals between cells travel through the space between them. A cell releases a molecule, it diffuses, another cell catches it. Slow. Lossy. Public — any cell nearby can intercept it.
+Most cellular communication is slow and public. A cell releases a molecule into the space between cells. The molecule diffuses. Another cell catches it — but so can any nearby cell that has the right receptor. It is more like shouting across a room than whispering to someone directly.
 
-Gap junctions do something different.
+Gap junctions are the whisper. A direct bridge. No extracellular space. No diffusion. No eavesdropping.
 
-A gap junction is a protein tunnel drilled directly between two cells, connecting their cytoplasms. Ions pass through it. Small molecules pass through it. Electrical signals — changes in voltage — pass through it at nearly the speed of electricity.
-
-No extracellular space. No diffusion delay. No interception by outsiders.
+What makes them strange is what this does to the *identity* of a signal.
 
 What passes through a gap junction is not a message. It is state. The two cells are sharing their internal condition directly, the way two water tanks connected at the bottom share their level. You cannot tell, from the water in one tank, whether a given molecule came from the left tank or the right one. The tanks are one system.
 

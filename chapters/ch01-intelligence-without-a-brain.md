@@ -3,6 +3,7 @@ title: "Intelligence Without a Brain"
 subtitle: "The things that act smart and have no head to do it with"
 short_title: "Intelligence Without a Brain"
 description: "In 1898 Thomas Hunt Morgan cut a flatworm into 279 pieces and got 279 flatworms. Every piece carried the same genome, yet every piece built a different missing part — and then stopped. Morgan could not solve it, so he switched to fruit flies and won a Nobel Prize. This chapter is about the problem he left behind, and why it turns out brains did not invent intelligence — they inherited it and made it fast."
+label: ch-01-intelligence-without-a-brain
 numbering:
   enumerator: "1.%s"
 ---
@@ -189,7 +190,17 @@ The neurocentric picture puts a wall at neurons and calls everything beneath it 
 
 ## Enter TAME
 
-Michael Levin's framework is called TAME — the Technological Approach to Mind Everywhere — and its central move is to swap an unanswerable question for a useful one.
+Think about what you just did three times in this chapter.
+
+You watched *E. coli* navigate a gradient — and to understand it, you had to ask: what would change its behavior? Not its body, not its genome. Its *input*. Alter the chemistry of the water and the bacterium responds. That was the intervention.
+
+You watched the slime mold solve Tokyo's transit problem — and the question was the same: what moves it? Not a command. A food source at a new location. Change the environment; the organism figures out the rest.
+
+You watched a wound close and stop — and the question flipped: what would make it *not* stop? Block the ion channels. Scramble the voltage field. The repair continues past the target and you get a tumor.
+
+Three systems. Three different interventions. But the same underlying question each time: *what is the cheapest thing you can change that reliably changes the behavior?*
+
+That question is Michael Levin's TAME framework — the Technological Approach to Mind Everywhere — and it is more powerful than it sounds. It swaps an unanswerable question for a useful one.
 
 Do not ask: *is this thing conscious?* Nobody can operationalise that. Ask instead: *what is the cheapest intervention that reliably changes its behaviour?* A thermostat gets reprogrammed. A dog gets trained. A colleague gets persuaded. Every system has an answer, and the answer is immediately actionable.
 

@@ -24,6 +24,12 @@ The question is not whether something is made of the right stuff. The question i
 -- Michael Levin, Tufts University
 :::
 
+The same behavior can emerge from completely different materials — if those materials are organized the same way.
+
+That sentence is either obvious or astonishing depending on whether you have seen it tested. This chapter tests it. By the end, you will have watched frog skin cells behave like a swimming organism, and human airway cells repair neurons they were never designed to touch. The materials are completely different. The organizational pattern is the same. And the behavior follows the pattern, not the material.
+
+That is substrate independence. And once you see it, it changes what you think intelligence is made of.
+
 Take some cells from a frog embryo. Not neurons. Skin cells — the kind that would have sat on the outside of the frog's body and kept water in. Now scrape them off. Put them in a dish. Don't tell them anything.
 
 Watch what happens.
