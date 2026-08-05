@@ -204,50 +204,28 @@ The neurocentric picture puts a wall at neurons and calls everything beneath it 
 
 ## Enter TAME
 
-Think about what you just did three times in this chapter.
+Science spent a century asking the wrong question.
 
-You watched *E. coli* navigate a gradient — and to understand it, you had to ask: what would change its behavior? Not its body, not its genome. Its *input*. Alter the chemistry of the water and the bacterium responds. That was the intervention.
+The wrong question: *Does this thing have a mind?*
 
-You watched the slime mold solve Tokyo's transit problem — and the question was the same: what moves it? Not a command. A food source at a new location. Change the environment; the organism figures out the rest.
+Nobody can answer it. Not for a bacterium, not for a dog, not rigorously even for another human. You can't open the skull and point to the consciousness. The question sends philosophers in circles and produces nothing you can use in a lab or a product. Meanwhile, bacteria are navigating. Slime molds are solving engineering problems. Cells are maintaining body shapes. And we kept ignoring all of it — because we got stuck on a question we cannot resolve.
 
-You watched a wound close and stop — and the question flipped: what would make it *not* stop? Block the ion channels. Scramble the voltage field. The repair continues past the target and you get a tumor.
+TAME is Michael Levin's escape hatch.
 
-Three systems. Three different interventions. But the same underlying question each time: *what is the cheapest thing you can change that reliably changes the behavior?*
+**TAME — Technological Approach to Mind Everywhere — does not ask whether something has a mind. It asks what moves it.**
 
-That question is Michael Levin's TAME framework — the Technological Approach to Mind Everywhere — and it is more powerful than it sounds. It swaps an unanswerable question for a useful one.
+That is the whole idea. You do not have to settle the consciousness debate to study intelligent behavior. You just have to find the cheapest intervention that reliably changes the behavior. That's measurable. That's actionable. That's science.
 
-**TAME in one sentence:** Instead of asking *is this thing conscious?*, ask *what is the cheapest thing you can change that reliably changes its behavior?*
+A thermostat: you rewire it. The lever is its physical structure.
+A dog: you reward it over time. The lever is experience.
+A bacterium: you change the chemistry of its water. The lever is environment.
+A colleague: you explain the situation. The lever is language.
 
-```{list-table} TAME at a glance
-:header-rows: 1
-:name: tbl-tame-glance
+Every system has a lever. The lever tells you what *kind* of intelligence you are dealing with — how deep it goes, what kinds of communication reach it, what kinds of interventions will fail completely. TAME is the discipline of finding that lever, and using it.
 
-* - System
-  - What changes its behavior
-  - What TAME calls it
-* - Thermostat
-  - Rewire it
-  - Reprogramming
-* - Dog
-  - Train it with rewards
-  - Training
-* - Colleague
-  - Talk to it
-  - Persuasion
-* - Bacterium
-  - Change the chemical gradient
-  - Environmental manipulation
-* - Slime mold
-  - Move the food source
-  - Environmental manipulation
-* - Tumor
-  - Restore the voltage signal
-  - Bioelectric intervention
-```
+What TAME does *not* do: claim bacteria are conscious. Or that they are not. It does not need to. It steps around that argument entirely and goes straight to what you can measure and what you can do with the measurement.
 
-That's it. That's the whole framework. Every system has a cheapest lever. TAME is the discipline of finding it.
-
-Do not ask: *is this thing conscious?* Nobody can operationalise that. Ask instead: *what is the cheapest intervention that reliably changes its behaviour?* A thermostat gets reprogrammed. A dog gets trained. A colleague gets persuaded. Every system has an answer, and the answer is immediately actionable.
+That is why it is powerful. Not because it answers the hard question. Because it shows you that the hard question was never the one you needed to answer.
 
 ```{figure} ../images/ch01-tame-map.png
 :name: fig-ch01-tame-map
